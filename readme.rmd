@@ -1,20 +1,23 @@
 ---
-title: "Generating Twitter Screenshots"
-output: html_document
+title: "Python program for image-based social media conjoints"
+output:
+  md_document:
+    variant: markdown_github
 ---
 
 ## Generating tweets programmatically
 
-This document implements an python function to generate conjoint image-based tweets programatically and at scale. The code is inspired in two main sources with similar implementation. 
+This document implements a python program to generate conjoint image-based tweets programatically and at scale. The code is inspired in two main sources with similar implementation. 
 
 - This medium post [here](https://medium.com/analytics-vidhya/how-to-create-twitter-screenshots-with-python-c142ef71fda7) describing how to generate tweets' screenshots in Python. 
 
-- And Alessandro Vecchiatto [implementation](https://github.com/avecchiato/Introducing_Visual_Conjoints) of visual conjoints for Twitter profiles.
+- And Alessandro Vecchiato [implementation](https://github.com/avecchiato/Introducing_Visual_Conjoints) of visual conjoints for Twitter profiles.
 
+This is a work in progress and part of my ongoing collaboration with Kevin Munger (Penn State), Katherine McCabe (Rutger University) and Keng-Chi Chang (UCSD)
 
 ## Setup
 
-To run this code, you need to have two core files. First, a background to build the tweets and images saved in a local folder. Some examples are provided in this repository. 
+To run this code, you need to have two main files. First, a background to build the tweets and images saved in a local folder. Some examples are provided in this repository. 
 
 ## Calling packages
 
@@ -25,7 +28,7 @@ import os
 import re
 ```
 
-## Function to write the tweets
+## Python function to write the tweets
 
 
 ```{python}
@@ -61,7 +64,7 @@ def create_tweet(empty_background, avatar, name, tag, text, reactions,output):
 
 ## Define basic parameters
 
-This is the core of the code, and to find those positions it is a bit of trial and error. So I downloaded an background and went on testing the correct positions
+This is the core of the code. To find those positions it is a bit of a guessing game. So I downloaded a background tweet and went on testing the correct positions
 
 ```{python}
 # BASIC PARAMETERS
@@ -91,7 +94,7 @@ qt_pos = (265, 512) # 3 dig
 rp_pos = (550, 512) # 3 dig
 ```
 
-Finally, we jsut need to write a loop to iterate over several parameters
+Finally, we just need to write a nesterd loop to iterate over several parameters
 
 
 ```{python}
@@ -133,4 +136,4 @@ knitr::include_graphics("output/a_0_b_2_c_0_d_3_e_0_f_1.png")
 ```
 
 
-Done! From here you just need to upload those in your survey and run the experiments. 
+Done! From here you just need to upload those in your survey and run the experiments. In future iterations of this code, I hope to show how to easily connect these images with Qualtrics
