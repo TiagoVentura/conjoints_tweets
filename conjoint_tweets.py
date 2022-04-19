@@ -22,6 +22,7 @@ from textwrap import wrap
 import os
 import re
 import datetime
+from numpy import asarray
 
 # %%
 # font
@@ -101,8 +102,7 @@ quote_footer = Image.open(
     'input/twitter_module/quote_footer.png').convert('RGB')
 
 # %%
-# function definition
-
+# function to create tweet
 
 def CreateTweet(
         author_avatar: str = "input/avatar/woman_clean.png",
@@ -247,8 +247,43 @@ def CreateTweet(
     x_reactions += draw.textsize(text="Likes",
                                  font=font_reaction_regular)[0] + 30
 
-    return(img)
+    return img
 
+# %%
+# function to save tweet image (easier to call in R)
+
+def SaveTweet(image, path, quality=95):
+    """
+    Save PIL image to path.
+
+    Parameters:
+    image (PIL Image): image of tweet
+    path (str): path to save the image, should end with .png, .jpg, or .pdf
+    quality (int): image quality, on a scale from 0 (worst) to 95 (best)
+
+    Returns:
+    None
+    """
+    image.save(path, quality=quality)
+
+# %%
+# function to show image in R
+
+def Convert(image_PIL):
+    """
+    Convert image from PIL object to array of RGB between 0 and 1.
+
+    Parameters:
+    image_PIL (PIL Image): image of tweet
+
+    Returns:
+    image in numpy array of RGB between 0 and 1
+    """
+    pixels = asarray(image_PIL)
+    pixels = pixels.astype('float32')
+    pixels /= 255.0
+    
+    return pixels
 
 # %%
 # test function
