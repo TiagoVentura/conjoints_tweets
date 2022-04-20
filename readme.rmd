@@ -63,9 +63,7 @@ A simple example using the CreateTweet.
 ```{python}
 from conjoint_tweets import CreateTweet
 tweet = CreateTweet()
-print(tweet)
-```
-
+tweet.show()
 ```
 
 ## QuoteTweet
@@ -74,9 +72,8 @@ To generate a quote tweet, you just need to add quote=true
 
 ```{python}
 qt = CreateTweet(quote=True)
-print(qt)
+qt.show()
 ```
-
 
 
 <!-- ## Rotating to generate the conjoints

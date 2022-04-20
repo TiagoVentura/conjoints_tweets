@@ -70,25 +70,14 @@ A simple example using the CreateTweet.
 ``` python
 from conjoint_tweets import CreateTweet
 tweet = CreateTweet()
-print(tweet)
+tweet.show()
 ```
 
-    ## <PIL.Image.Image image mode=RGB size=1050x475 at 0x7FB0C0914190>
+## QuoteTweet
 
+To generate a quote tweet, you just need to add quote=true
 
-    ## QuoteTweet
-
-    To generate a quote tweet, you just need to add quote=true
-
-
-    ```python
-    qt = CreateTweet(quote=True)
-    print(qt)
-
-    ## <PIL.Image.Image image mode=RGB size=1050x645 at 0x7FB0C0914760>
-
-<!-- ## Rotating to generate the conjoints
-
-Finally, we just need to write a nested loop to iterate over several parameters-->
-<!-- See an example below -->
-<!-- Done! From here you just need to upload those in your survey and run the experiments. In future iterations of this code, I hope to show how to easily connect these images with Qualtrics -->
+``` python
+qt = CreateTweet(quote=True)
+qt.show()
+```
