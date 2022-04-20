@@ -68,10 +68,12 @@ experiment.
 A simple example using the CreateTweet.
 
 ``` python
-from conjoint_tweets import CreateTweet
+from conjoint_tweets import *
 tweet = CreateTweet()
-tweet.show()
+SaveTweet(tweet, "output/tweet.png", quality = 95)
 ```
+
+<img src="output/tweet.png" width="1050" />
 
 ## QuoteTweet
 
@@ -79,5 +81,40 @@ To generate a quote tweet, you just need to add quote=true
 
 ``` python
 qt = CreateTweet(quote=True)
-qt.show()
+SaveTweet(qt, "output/qttweet.png", quality = 95)
 ```
+
+<img src="output/qttweet.png" width="1050" />
+
+## Another Example
+
+Now let’s see an example with inputs we provide to the function
+
+``` python
+img = CreateTweet(
+    author_avatar="input/avatar/woman_clean.png",
+    author_name="Daydream Whale",
+    author_tag="@DaydreamWhale",
+    text="Grim-visaged war hath smooth'd his wrinkled front; And now, instead of mounting barded steeds. To fright the souls of fearful adversaries, He capers nimbly in a lady's chamber. To the lascivious pleasing of a lute.",
+    reactions_retweet="100",
+    reactions_quote="200",
+    reactions_like="20K",
+    time="2022-07-05 14:34",
+    quote=True,
+    quote_author_avatar="input/avatar/woman_clean.png",
+    quote_author_name="Mobsteroid",
+    quote_author_tag="@mobsteroid",
+    quote_text="Now is the winter of our discontent. Made glorious summer by this sun of York; And all the clouds that lour'd upon our house. In the deep bosom of the ocean buried. Now are our brows bound with victorious wreaths. Our bruised arms hung up for monuments. Our stern alarums changed to merry meetings, Our dreadful marches to delightful measures."
+)
+img.save('output/tweet_quote.png', quality=95)
+```
+
+<img src="output/tweet_quote.png" width="1050" />
+
+## Rotating to generate the conjoints
+
+The final step is just to write a nested loop to iterate over several
+parameters
+
+<!-- See an example below -->
+<!-- Done! From here you just need to upload those in your survey and run the experiments. In future iterations of this code, I hope to show how to easily connect these images with Qualtrics -->
