@@ -62,7 +62,10 @@ A simple example using the CreateTweet.
 
 ```{python}
 from conjoint_tweets import CreateTweet
-CreateTweet()
+tweet = CreateTweet()
+print(tweet)
+```
+
 ```
 
 ## QuoteTweet
@@ -70,8 +73,10 @@ CreateTweet()
 To generate a quote tweet, you just need to add quote=true
 
 ```{python}
-CreateTweet(quote=True)
+qt = CreateTweet(quote=True)
+print(qt)
 ```
+
 
 
 <!-- ## Rotating to generate the conjoints
