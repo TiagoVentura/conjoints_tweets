@@ -17,6 +17,16 @@ Kevin Munger (Penn State), Katherine McCabe (Rutger University) and
 Keng-Chi Chang (UCSD). Keng-Chi Chang made invaluable contributtions to
 this code.
 
+## Demos
+
+In addition to this readme, we prepared two demos explaining how to use
+our functions. See below for R and Python users:
+
+-   [demo to use in
+    R](https://htmlpreview.github.io/?https://github.com/KengChiChang/conjoints_tweets/blob/modularize/demo-R.html)
+-   [demo to use in
+    python](https://htmlpreview.github.io/?https://github.com/KengChiChang/conjoints_tweets/blob/modularize/demo-Python.html)
+
 ## Setup
 
 ## Calling packages
