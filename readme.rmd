@@ -1,30 +1,27 @@
+---
+title: "Python program for image-based social media conjoints"
+output:
+  md_document:
+    variant: markdown_github
+---
+
 ## Generating tweets programmatically
 
-This  document implements a python program to generate conjoint
-image-based tweets programatically and at scale. The code is inspired in
-two main sources with similar implementation.
+This document implements a python program to generate conjoint image-based tweets programatically and at scale. The code is inspired in two main sources with similar implementation. 
 
--   This medium post
-    [here](https://medium.com/analytics-vidhya/how-to-create-twitter-screenshots-with-python-c142ef71fda7)
-    describing how to generate tweets’ screenshots in Python.
+- This medium post [here](https://medium.com/analytics-vidhya/how-to-create-twitter-screenshots-with-python-c142ef71fda7) describing how to generate tweets' screenshots in Python. 
 
--   And Alessandro Vecchiato
-    [implementation](https://github.com/avecchiato/Introducing_Visual_Conjoints)
-    of visual conjoints for Twitter profiles.
+- And Alessandro Vecchiato [implementation](https://github.com/avecchiato/Introducing_Visual_Conjoints) of visual conjoints for Twitter profiles.
 
-This is a work in progress and part of my ongoing collaboration with
-Kevin Munger (Penn State), Katherine McCabe (Rutger University) and
-Keng-Chi Chang (UCSD)
+This is a work in progress and part of my ongoing collaboration with Kevin Munger (Penn State), Katherine McCabe (Rutger University) and Keng-Chi Chang (UCSD)
 
 ## Setup
 
-To run this code, you need to have two main files. First, a background
-to build the tweets and images saved in a local folder. Some examples
-are provided in this repository.
+To run this code, you need to have two main files. First, a background to build the tweets and images saved in a local folder. Some examples are provided in this repository. 
 
 ## Calling packages
 
-``` python
+```{python}
 from PIL import Image, ImageDraw, ImageFont
 from textwrap import wrap
 import os
@@ -33,7 +30,9 @@ import re
 
 ## Python function to write the tweets
 
-``` python
+
+```{python}
+
 def create_tweet(empty_background, avatar, name, tag, text, reactions,output):
   # Basic parameters
   # positions  
@@ -75,11 +74,13 @@ def create_tweet(empty_background, avatar, name, tag, text, reactions,output):
   draw.text(qt_pos, reactions[1], font=font_react, fill=(0, 0, 0)) 
   draw.text(rp_pos, reactions[2], font=font_react, fill=(0, 0, 0)) 
   img.save(output, quality=95)
+
 ```
+
 
 ## Pythong function to create Quote Tweets
 
-``` python
+```{python}
  
 def create_qttweet(empty_background,avatar_tw, avatar_qt,author, author_tag, author_qt, author_qttag, text_tw, text_qt,reactions, output):
   # positions  
@@ -146,12 +147,16 @@ def create_qttweet(empty_background,avatar_tw, avatar_qt,author, author_tag, aut
   draw.text(rp_pos, reactions[2], font=font_react, fill=(0, 0, 0)) 
   img.save(output, quality=95)
   
+
+
+
 ```
 
-Finally, we just need to write a nested loop to iterate over several
-parameters
 
-``` python
+Finally, we just need to write a nested loop to iterate over several parameters
+
+
+```{python}
 empty_background= ["empty_tweet.png"]
 avatars = ["woman_clean.png", "woman2_clean.png", "woman3_clean.png"]
 names = ["Tiago", "Katie", "KC", "Katie"]
@@ -184,18 +189,10 @@ for a, back in enumerate(empty_background):
 
 See an example below
 
-``` r
+```{r}
 knitr::include_graphics("output/a_0_b_2_c_0_d_3_e_0_f_1.png")
-```
-
-<img src="output/a_0_b_2_c_0_d_3_e_0_f_1.png" width="1050" />
-
-``` r
 mean(c(82, 85, 76, 78, 78, 77, 75))
+
 ```
 
-    ## [1] 78.71429
-
-Done! From here you just need to upload those in your survey and run the
-experiments. In future iterations of this code, I hope to show how to
-easily connect these images with Qualtrics
+Done! From here you just need to upload those in your survey and run the experiments. In future iterations of this code, I hope to show how to easily connect these images with Qualtrics
