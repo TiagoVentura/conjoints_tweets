@@ -1,0 +1,56 @@
+# Demo
+
+- `CreateTweet()`: Create tweet using parameters.
+- Parameters:
+  - `author_avatar` (str): avatar of author
+  - `author_name` (str): name of author
+  - `author_tag` (str): twitter username/handle of author
+  - `text` (str): main text of tweet
+  - `reactions_retweet` (str): number of reactions of tweet
+  - `reactions_quote` (str): number of quotes of tweet
+  - `reactions_like` (str): number of likes of tweet
+  - `time` (str/NULL/None): time of tweet in format "2022-07-05 14:34"; if None use current time
+  - `quote` (TRUE/FALSE): whether or not to print quoted tweet
+  - `quote_author_avatar` (str): avatar of author of quoted tweet
+  - `quote_author_name` (str): name of author of quoted tweet
+  - `quote_author_tag` (str): twitter username/handle of author of quoted tweet
+  - `quote_text` (str): text of quoted tweet
+- Returns:
+  - image: Twitter image in PIL Image format
+
+```{r}
+# install.packages("reticulate")
+library("reticulate")
+source_python('conjoint_tweets.py')
+image = CreateTweet(
+    author_avatar="input/avatar/woman_clean.png",
+    author_name="Daydream Whale",
+    author_tag="@DaydreamWhale",
+    text="Grim-visaged war hath smooth'd his wrinkled front; And now, instead of 
+    mounting barded steeds. To fright the souls of fearful adversaries, He 
+    capers nimbly in a lady's chamber. To the lascivious pleasing of a lute.",
+    reactions_retweet="100",
+    reactions_quote="200",
+    reactions_like="20K",
+    time=NULL,
+    quote=TRUE,
+    quote_author_avatar="input/avatar/woman_clean.png",
+    quote_author_name="Mobsteroid",
+    quote_author_tag="@mobsteroid",
+    quote_text="Now is the winter of our discontent. Made glorious summer by 
+    this sun of York; And all the clouds that lour'd upon our house. In the deep 
+    bosom of the ocean buried. Now are our brows bound with victorious wreaths. 
+    Our bruised arms hung up for monuments. Our stern alarums changed to merry 
+    meetings, Our dreadful marches to delightful measures."
+)
+SaveTweet(image, "output/test_save_from_R.png", quality = 95)
+```
+
+```{r message=FALSE, warning = FALSE}
+# install.packages("magick")
+library("magick")
+image_array = Convert(image)
+tweet = magick::image_read(image_array)
+print(tweet)
+```
+
