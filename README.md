@@ -1,4 +1,4 @@
-## Generating tweets programmatically
+## ConjointTweets: Generating image-based conjoint tweets programmatically
 
 This document implements a python program to generate conjoint
 image-based tweets programatically and at scale. The code is inspired in
@@ -112,40 +112,83 @@ SaveTweet(qt, "output/tweet_quote_reply.png", quality = 95)
 
 <img src="output/tweet_quote_reply.png" width="1050" />
 
-## Another Example
 
-Now let’s see an example with inputs we provide to the function
+## Example with real content
 
-``` python
-img = CreateTweet(
-    author_avatar="input/avatar/woman_clean.png",
-    author_name="Daydream Whale",
-    author_tag="@DaydreamWhale",
-    text="Grim-visaged war hath smooth'd his wrinkled front; And now, instead of mounting barded steeds. To fright the souls of fearful adversaries, He capers nimbly in a lady's chamber. To the lascivious pleasing of a lute.",
+```python
+image = CreateTweet(
+    author_avatar="input/avatar/obama_avatar.jpeg",
+    author_name="Mark Dem",
+    author_tag="@_dem2022",
+    text="You’ve only got six days left to vote in the midterms – and while I know you’ve heard this a million times already, this election really is too important to sit out. In many places, your vote could make the difference.",
     reactions_retweet="100",
     reactions_quote="200",
     reactions_like="20K",
     time="2022-07-05 14:34",
-    quote=True,
-    quote_author_avatar="input/avatar/woman_clean.png",
-    quote_author_name="Mobsteroid",
-    quote_author_tag="@mobsteroid",
-    quote_text="Now is the winter of our discontent. Made glorious summer by this sun of York; And all the clouds that lour'd upon our house. In the deep bosom of the ocean buried. Now are our brows bound with victorious wreaths. Our bruised arms hung up for monuments. Our stern alarums changed to merry meetings, Our dreadful marches to delightful measures.",
-    reply=True,
-    reply_author_avatar="input/avatar/woman_clean.png",
+    quote=TRUE,
+    quote_author_avatar="input/avatar/woman3_clean.png",
+    quote_author_name="Rep. Jackson",
+    quote_author_tag="@_Jack",
+    quote_text="Don't forget to vote. Your participation matters!",
+    reply=TRUE,
+    reply_author_avatar="input/avatar/republican.png",
     reply_author_name="FrozenPie",
     reply_author_tag="@FrozenPie",
-    reply_text="In show dull give need so held. One order all scale sense her gay style wrote. Incommode our not one ourselves residence. Shall there whose those stand she end. So unaffected partiality indulgence dispatched to of celebrated remarkably. Unfeeling are had allowance own perceived abilities."
-)
-img.save('output/tweet_quote_reply.png', quality=95)
+    reply_text="You are done! Bye, bye Dem! It is time to bring Trump back")
 ```
 
-<img src="output/tweet_quote_reply.png" width="1050" />
+<img src="output/test_save_from_R.png" width="1050" />
 
-## Rotating to generate the conjoints
+## Generating Conjoints
 
-The final step is just to write a nested loop to iterate over several
-parameters
+The final step is to generate multiple images for a conjoint setup. This can be easily done with an any type of functional programming technique. We show here how you can generate multiple conjoint tweets with a simple nested loop. 
 
-<!-- See an example below -->
-<!-- Done! From here you just need to upload those in your survey and run the experiments. In future iterations of this code, I hope to show how to easily connect these images with Qualtrics -->
+Notice we use the enumerate function so that we can easily recover all the variations of the conjoint directly from the file names. 
+
+``` python 
+# import pandas
+import pandas as pd
+# create a  tweet varying author name, text, and number of reactions to the tweet. 
+for a, author in enumerate(author_name):
+  for b, text in enumerate(texts):
+    for c, retweet in enumerate(reactions_retweet):
+      for d, quote in enumerate(reactions_quote):
+        for e, like in enumerate(reactions_like):
+          # generate image
+          tweet = CreateTweet(
+                    author_avatar="input/avatar/woman_clean.png",
+                    author_name=author[0],
+                    author_tag=author[1],
+                    text=text,
+                    reactions_retweet=retweet,
+                    reactions_quote=quote,
+                    reactions_like=like,
+                    time="2022-07-05 14:34")
+          # to save
+          name = ["author_" + str(a+1), 
+                  "text_" + str(b+1),
+                  "retweet_"+ str(c+1), 
+                  "quote_"+ str(d+1), 
+                  "like_" + str(e+1)]
+          output= '_'.join(name) + ".png"
+          # save
+          outdir= "Output/"
+          SaveTweet(tweet, outdir+output, quality=95)
+```
+
+
+## Embedding the Conjoint on a survey platform. 
+
+The next step is to embed all the conjoint images in a survey platform, and perform the randomization. We propose a easy solution for this task. Using the R package `plumber` we develop a simple API to randomize accross all the imges saved on the folder output. Then, we add the API endpoint as an embedded 
+
+The api has two simple files:
+
+- `run_api.r`: this files is responsible for deploying the api
+
+- `plumber.r`: this files contains the function run everytime the api request a get request. 
+
+We hosted the API at a AWS RStudio server. However, the images and the api can be hosted in any type of server. 
+
+[Here](https://mblukac.github.io/posts/2021/05/plumber_AWSEC2/) you can find a nice tutorial writen by Martin Lukac on how to deploy a `pumbler` API with AWS EC2
+
+If you don't want go through all these steps, fell free to manually upload the images to qualtrics, and add the randomization directly to your survey. 

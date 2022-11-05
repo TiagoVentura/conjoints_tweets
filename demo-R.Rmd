@@ -1,4 +1,5 @@
-# Demo
+# Demo using R
+
 
 - `CreateTweet()`: Create tweet using parameters.
 - Parameters:
@@ -28,26 +29,28 @@
 library("reticulate")
 source_python('conjoint_tweets.py')
 image = CreateTweet(
-    author_avatar="input/avatar/woman_clean.png",
-    author_name="Daydream Whale",
-    author_tag="@DaydreamWhale",
-    text="Grim-visaged war hath smooth'd his wrinkled front; And now, instead of mounting barded steeds. To fright the souls of fearful adversaries, He capers nimbly in a lady's chamber. To the lascivious pleasing of a lute.",
+    author_avatar="input/avatar/obama_avatar.jpeg",
+    author_name="Mark Dem",
+    author_tag="@_dem2022",
+    text="You’ve only got six days left to vote in the midterms – and while I know you’ve heard this a million times already, this election really is too important to sit out. In many places, your vote could make the difference.",
     reactions_retweet="100",
     reactions_quote="200",
     reactions_like="20K",
     time="2022-07-05 14:34",
     quote=TRUE,
-    quote_author_avatar="input/avatar/woman_clean.png",
-    quote_author_name="Mobsteroid",
-    quote_author_tag="@mobsteroid",
-    quote_text="Now is the winter of our discontent. Made glorious summer by this sun of York; And all the clouds that lour'd upon our house. In the deep bosom of the ocean buried. Now are our brows bound with victorious wreaths. Our bruised arms hung up for monuments. Our stern alarums changed to merry meetings, Our dreadful marches to delightful measures.",
+    quote_author_avatar="input/avatar/woman3_clean.png",
+    quote_author_name="Rep. Jackson",
+    quote_author_tag="@_Jack",
+    quote_text="Don't forget to vote. Your participation matters!",
     reply=TRUE,
-    reply_author_avatar="input/avatar/woman_clean.png",
+    reply_author_avatar="input/avatar/republican.png",
     reply_author_name="FrozenPie",
     reply_author_tag="@FrozenPie",
-    reply_text="In show dull give need so held. One order all scale sense her gay style wrote. Incommode our not one ourselves residence. Shall there whose those stand she end. So unaffected partiality indulgence dispatched to of celebrated remarkably. Unfeeling are had allowance own perceived abilities."
+    reply_text="You are done! Bye, bye Dem! It is time to bring Trump back"
 )
+
 SaveTweet(image, "output/test_save_from_R.png", quality = 95)
+
 ```
 
 ```{r message=FALSE, warning = FALSE}

@@ -350,7 +350,7 @@ if __name__ == "__main__":
         author_avatar="input/avatar/woman_clean.png",
         author_name="Tiago",
         author_tag="@tiago",
-        text="I'm teaching a short ICPSR workshop in June on racial attitudes and racial identities. In person or virtual! Please share with your students & colleagues who may be interested. I'm teaching a short ICPSR workshop in June on racial attitudes and racial identities. In person or virtual! Please share with your students & colleagues who may be interested.",
+        text="Go vote!",
         reactions_retweet="100",
         reactions_quote="200",
         reactions_like="20K",
@@ -359,5 +359,5 @@ if __name__ == "__main__":
         quote_author_avatar="input/avatar/woman_clean.png",
         quote_author_name="Katie",
         quote_author_tag="@katie",
-        quote_text="Quick favor, forget that we told you the early payment discount ends May 1. Because good news, we are extending it to May 15! Still a month left to get a discount on 4-week registration: https://myumi.ch/qAZQ2 Quick favor, forget that we told you the early payment discount ends May 1. Because good news, we are extending it to May 15! Still a month left to get a discount on 4-week registration: https://myumi.ch/qAZQ2"
+        quote_text="yes please! Your vote really matter!"
     )
