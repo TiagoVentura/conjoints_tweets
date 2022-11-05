@@ -14,188 +14,138 @@ two main sources with similar implementation.
 
 This is a work in progress and part of my ongoing collaboration with
 Kevin Munger (Penn State), Katherine McCabe (Rutger University) and
-Keng-Chi Chang (UCSD)
+Keng-Chi Chang (UCSD). Keng-Chi Chang made invaluable contributtions to
+this code.
+
+## Demos
+
+In addition to this readme, we prepared two demos explaining how to use
+our functions. See below for R and Python users:
+
+-   [demo to use in
+    R](https://htmlpreview.github.io/?https://github.com/KengChiChang/conjoints_tweets/blob/modularize/demo-R.html)
+-   [demo to use in
+    python](https://htmlpreview.github.io/?https://github.com/KengChiChang/conjoints_tweets/blob/modularize/demo-Python.html)
 
 ## Setup
-
-To run this code, you need to have two main files. First, a background
-to build the tweets and images saved in a local folder. Some examples
-are provided in this repository.
 
 ## Calling packages
 
 ``` python
+# import packages
+from matplotlib import font_manager
 from PIL import Image, ImageDraw, ImageFont
 from textwrap import wrap
 import os
 import re
+import datetime
+from numpy import asarray
 ```
 
-## Python function to write the tweets
+## Python function to write the tweets and quote tweets
+
+We wrote a python function that allows researcher to create tweets and
+quote tweets given a set of inputs. The function has the following
+parameters:
+
+-   `CreateTweet()`: Create tweet using parameters.
+-   Parameters:
+    -   `author_avatar` (str): avatar of author
+    -   `author_name` (str): name of author
+    -   `author_tag` (str): twitter username/handle of author
+    -   `text` (str): main text of tweet
+    -   `reactions_retweet` (str): number of reactions of tweet
+    -   `reactions_quote` (str): number of quotes of tweet
+    -   `reactions_like` (str): number of likes of tweet
+    -   `time` (str/NULL/None): time of tweet in format “2022-07-05
+        14:34”; if None use current time
+    -   `quote` (TRUE/FALSE): whether or not to print quoted tweet
+    -   `quote_author_avatar` (str): avatar of author of quoted tweet
+    -   `quote_author_name` (str): name of author of quoted tweet
+    -   `quote_author_tag` (str): twitter username/handle of author of
+        quoted tweet
+    -   `quote_text` (str): text of quoted tweet
+    -   `reply` (True/False): whether or not to print quoted tweet
+    -   `reply_author_avatar` (str): avatar of author of quoted tweet
+    -   `reply_author_name` (str): name of author of quoted tweet
+    -   `reply_author_tag` (str): twitter username/handle of author of quoted tweet
+    -   `reply_text` (str): text of quoted tweet
+-   Returns:
+    -   image: Twitter image in PIL Image format
+
+You can get access to the function on this repository. The logic of the
+function is to split the tweet in many parts, and combine their
+positions at the end. These components can all be rotated in a conjoint
+experiment.
+
+## CreateTweet
+
+A simple example using the CreateTweet.
 
 ``` python
-def create_tweet(empty_background, avatar, name, tag, text, reactions,output):
-  # Basic parameters
-  # positions  
-  author_name_position = (150, 40)
-  author_tag_position = (150, 95)
-  text_position = (60, 170)
-  reactions_pos = (110, 600)
-  # reactions 3 dig
-  rt_pos = (65, 512) # 3 dig
-  qt_pos = (265, 512) # 3 dig
-  rp_pos = (550, 512) # 3 dig
-  # fonts
-  font_name = ImageFont.truetype("HelveticaNeue.ttc", size=35, index = 1)
-  font_tag = ImageFont.truetype("HelveticaNeue.ttc", size=25, index=1)
-  font_text = ImageFont.truetype("HelveticaNeue.ttc", size=45, index=0)
-  font_react = ImageFont.truetype("HelveticaNeue.ttc", size=30, index=1)
-  #  function
-  #Generating empty Twitter profile.
-  img = Image.open(empty_background).convert('RGB')
-  # Image
-  # solution: pass all profile umage through twitter, and get all with the dimensions
-  avatar = Image.open(avatar) 
-  avatar = avatar.resize((140, 120))
-  img.paste(avatar, (25, 30))
-  # name
-  draw = ImageDraw.Draw(img)
-  draw.text(author_name_position,name,(0,0,0),font=font_name)
-  #tag
-  draw.text(author_tag_position,tag,font=font_tag, fill = "#667786")
-  # text
-  x, y = text_position
-  text_string_lines = wrap(text, 48)
-  for index, line in enumerate(text_string_lines): # get the index and the text
-      draw.text((x, y), line, font=font_text, fill=(0, 0, 0)) 
-      y +=  55
-  # reactions
-  # draw
-  draw.text(rt_pos, reactions[0], font=font_react, fill=(0, 0, 0)) 
-  draw.text(qt_pos, reactions[1], font=font_react, fill=(0, 0, 0)) 
-  draw.text(rp_pos, reactions[2], font=font_react, fill=(0, 0, 0)) 
-  img.save(output, quality=95)
+from conjoint_tweets import *
+tweet = CreateTweet()
+SaveTweet(tweet, "output/tweet.png", quality = 95)
 ```
 
-## Pythong function to create Quote Tweets
+<img src="output/tweet.png" width="1050" />
+
+## QuoteTweet
+
+To generate a quote tweet, you just need to add quote=True
 
 ``` python
- 
-def create_qttweet(empty_background,avatar_tw, avatar_qt,author, author_tag, author_qt, author_qttag, text_tw, text_qt,reactions, output):
-  # positions  
-  author_name_position = (185, 65)
-  author_tag_position = (185, 125)
-  author_name_qtposition = (140, 435)
-  author_tag_qtposition = (430, 437)
-  text_position = (160, 270)
-  reactions_pos = (110, 600)
-  avatar_pos = (40, 50)
-  avatar_qtpos = (50, 420)
-  text_position = (70, 210)
-  text_qtposition = (70, 210)
-  # reactions 3 dig
-  rt_pos = (55, 865) # 3 dig
-  qt_pos = (365, 865) # 3 dig
-  rp_pos = (800, 865) # 3 dig
-  # fonts
-  font_name = ImageFont.truetype("HelveticaNeue.ttc", size=48, index = 1)
-  font_tag = ImageFont.truetype("HelveticaNeue.ttc", size=32, index=1)
-  font_qtname = ImageFont.truetype("HelveticaNeue.ttc", size=42, index = 1)
-  font_qttag = ImageFont.truetype("HelveticaNeue.ttc", size=38, index=1)
-  font_text = ImageFont.truetype("HelveticaNeue.ttc", size=62, index=0)
-  font_qttext = ImageFont.truetype("HelveticaNeue.ttc", size=34, index=0)
-  font_react = ImageFont.truetype("HelveticaNeue.ttc", size=40, index=1)
-  #Generating empty Twitter profile.
-  img = Image.open(empty_background).convert('RGB')
-  # Image
-  # solution: pass all profile image through twitter fake, and get all with the dimensions
-  avatar = Image.open(avatar_tw) 
-  avatar = avatar.resize((160, 140))
-  img.paste(avatar, avatar_pos)
-  # avatar quote tweet
-  avatarqt = Image.open(avatar_qt) 
-  avatarqt = avatarqt.resize((100, 80))
-  img.paste(avatarqt, avatar_qtpos)
-  # name aut
-  draw = ImageDraw.Draw(img)
-  draw.text(author_name_position,author,(0,0,0),font=font_name)
-  #tag aut
-  draw.text(author_tag_position,author_tag,font=font_tag, fill = "#667786")
-  # name qt
-  draw = ImageDraw.Draw(img)
-  draw.text(author_name_qtposition,author_qt,(0,0,0),font=font_qtname)
-  #tag qt
-  draw.text(author_tag_qtposition,author_qttag,font=font_qttag, fill = "#667786")
-  # text at
-  x, y = text_position
-  text_string_lines = wrap(text_tw, 48)
-  for index, line in enumerate(text_string_lines): # get the index and the text
-      draw.text((x, y), line, font=font_text, fill=(0, 0, 0)) 
-      y +=  80
-      
-  # text qt
-  x, y = text_qtposition
-  text_string_lines = wrap(text_qt, 86)
-  for index, line in enumerate(text_string_lines): # get the index and the text
-      draw.text((x, y), line, font=font_qttext, fill=(0, 0, 0)) 
-      y +=  50
-    # reactions
-  # draw
-  draw.text(rt_pos, reactions[0], font=font_react, fill=(0, 0, 0)) 
-  draw.text(qt_pos, reactions[1], font=font_react, fill=(0, 0, 0)) 
-  draw.text(rp_pos, reactions[2], font=font_react, fill=(0, 0, 0)) 
-  img.save(output, quality=95)
-  
+qt = CreateTweet(quote=True)
+SaveTweet(qt, "output/tweet_quote.png", quality = 95)
 ```
 
-Finally, we just need to write a nested loop to iterate over several
+<img src="output/tweet_quote.png" width="1050" />
+
+## Tweet with reply
+
+To generate a tweet with reply, you just need to add reply=True
+
+``` python
+qt = CreateTweet(quote=True, reply=True)
+SaveTweet(qt, "output/tweet_quote_reply.png", quality = 95)
+```
+
+<img src="output/tweet_quote_reply.png" width="1050" />
+
+## Another Example
+
+Now let’s see an example with inputs we provide to the function
+
+``` python
+img = CreateTweet(
+    author_avatar="input/avatar/woman_clean.png",
+    author_name="Daydream Whale",
+    author_tag="@DaydreamWhale",
+    text="Grim-visaged war hath smooth'd his wrinkled front; And now, instead of mounting barded steeds. To fright the souls of fearful adversaries, He capers nimbly in a lady's chamber. To the lascivious pleasing of a lute.",
+    reactions_retweet="100",
+    reactions_quote="200",
+    reactions_like="20K",
+    time="2022-07-05 14:34",
+    quote=True,
+    quote_author_avatar="input/avatar/woman_clean.png",
+    quote_author_name="Mobsteroid",
+    quote_author_tag="@mobsteroid",
+    quote_text="Now is the winter of our discontent. Made glorious summer by this sun of York; And all the clouds that lour'd upon our house. In the deep bosom of the ocean buried. Now are our brows bound with victorious wreaths. Our bruised arms hung up for monuments. Our stern alarums changed to merry meetings, Our dreadful marches to delightful measures.",
+    reply=True,
+    reply_author_avatar="input/avatar/woman_clean.png",
+    reply_author_name="FrozenPie",
+    reply_author_tag="@FrozenPie",
+    reply_text="In show dull give need so held. One order all scale sense her gay style wrote. Incommode our not one ourselves residence. Shall there whose those stand she end. So unaffected partiality indulgence dispatched to of celebrated remarkably. Unfeeling are had allowance own perceived abilities."
+)
+img.save('output/tweet_quote_reply.png', quality=95)
+```
+
+<img src="output/tweet_quote_reply.png" width="1050" />
+
+## Rotating to generate the conjoints
+
+The final step is just to write a nested loop to iterate over several
 parameters
 
-``` python
-empty_background= ["empty_tweet.png"]
-avatars = ["woman_clean.png", "woman2_clean.png", "woman3_clean.png"]
-names = ["Tiago", "Katie", "KC", "Katie"]
-tags = ["@Tiago", "@Katie", "@KC", "@Katie"]
-texts = ["This is just a long and random tweet to test the code to generate conjoints tweets on the fly. This is gonna be great! It looks better longer the text is", 
-"This is just a SECOND long and random tweet to test the code to generate conjoints tweets on the fly. This is gonna be great! It looks better longer the text is"]
-reactions = [["100","300", "20k"],["    1", "     5", "     6"]]
-
-
-for a, back in enumerate(empty_background):
-  for b, avatar in enumerate(avatars):
-    for c, name in enumerate(names):
-      for d, tag in enumerate(tags):
-        for e, text in enumerate(texts):
-          for f, reaction in enumerate(reactions):
-            # create name to save
-            output= "a_" + str(a) + "_" + "b_" + str(b) + "_" + "c_" + str(c) + "_" + "d_" + \
-            str(d) + "_" + "e_" + str(e) + "_" + "f_" + str(f)
-            output_to_save = "output/" + str(output) + ".png"
-            #gen the tweet
-            create_tweet(empty_background=back, 
-                         avatar=avatar, 
-                         name=name, 
-                         tag=tag, 
-                         text=text, 
-                         reactions=reaction, 
-                         output=output_to_save)                         
-            
-```
-
-See an example below
-
-``` r
-knitr::include_graphics("output/a_0_b_2_c_0_d_3_e_0_f_1.png")
-```
-
-<img src="output/a_0_b_2_c_0_d_3_e_0_f_1.png" width="1050" />
-
-``` r
-mean(c(82, 85, 76, 78, 78, 77, 75))
-```
-
-    ## [1] 78.71429
-
-Done! From here you just need to upload those in your survey and run the
-experiments. In future iterations of this code, I hope to show how to
-easily connect these images with Qualtrics
+<!-- See an example below -->
+<!-- Done! From here you just need to upload those in your survey and run the experiments. In future iterations of this code, I hope to show how to easily connect these images with Qualtrics -->
