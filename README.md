@@ -179,16 +179,18 @@ for a, author in enumerate(author_name):
 
 ## Embedding the Conjoint on a survey platform. 
 
-The next step is to embed all the conjoint images in a survey platform, and perform the randomization. We propose a easy solution for this task. Using the R package `plumber` we develop a simple API to randomize accross all the imges saved on the folder output. Then, we add the API endpoint as an embedded 
+The next step is to embed all the conjoint images in a survey platform, and perform the randomization. We propose a easy solution for this task. Using the R package `plumber` we develop a simple API to randomize accross all the imges saved on the folder output. Then, we add the API endpoint as an embedded to your survey platform. In our case, we use Qualtrics, and use the webservice function in the survey workflow to send requests to the API. 
 
-The api has two simple files:
+All the materials for the API are available in the folder `api_conjoint_tweets`. The api has two simple files:
 
-- `run_api.r`: this files is responsible for deploying the api
+- `run_api.r`: this file is responsible for deploying the api
 
-- `plumber.r`: this files contains the function run everytime the api request a get request. 
+- `plumber.r`: this file contains the function to generate the api requests.
 
 We hosted the API at a AWS RStudio server. However, the images and the api can be hosted in any type of server. 
 
 [Here](https://mblukac.github.io/posts/2021/05/plumber_AWSEC2/) you can find a nice tutorial writen by Martin Lukac on how to deploy a `pumbler` API with AWS EC2
 
 If you don't want go through all these steps, fell free to manually upload the images to qualtrics, and add the randomization directly to your survey. 
+
+This is a work in progresso. Suggestions are more than welcome!

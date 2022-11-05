@@ -537,13 +537,16 @@ for a, author in enumerate(author_name):
 platform, and perform the randomization. We propose a easy solution for
 this task. Using the R package <code>plumber</code> we develop a simple
 API to randomize accross all the imges saved on the folder output. Then,
-we add the API endpoint as an embedded</p>
-<p>The api has two simple files:</p>
+we add the API endpoint as an embedded to your survey platform. In our
+case, we use Qualtrics, and use the webservice function in the survey
+workflow to send requests to the API.</p>
+<p>All the materials for the API are available in the folder
+<code>api_conjoint_tweets</code>. The api has two simple files:</p>
 <ul>
-<li><p><code>run_api.r</code>: this files is responsible for deploying
+<li><p><code>run_api.r</code>: this file is responsible for deploying
 the api</p></li>
-<li><p><code>plumber.r</code>: this files contains the function run
-everytime the api request a get request.</p></li>
+<li><p><code>plumber.r</code>: this file contains the function to
+generate the api requests.</p></li>
 </ul>
 <p>We hosted the API at a AWS RStudio server. However, the images and
 the api can be hosted in any type of server.</p>
@@ -553,6 +556,7 @@ you can find a nice tutorial writen by Martin Lukac on how to deploy a
 <p>If you don’t want go through all these steps, fell free to manually
 upload the images to qualtrics, and add the randomization directly to
 your survey.</p>
+<p>This is a work in progresso. Suggestions are more than welcome!</p>
 </div>
 
 
