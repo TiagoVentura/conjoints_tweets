@@ -23,9 +23,9 @@ In addition to this readme, we prepared two demos explaining how to use
 our functions. See below for R and Python users:
 
 -   [demo to use in
-    R](https://htmlpreview.github.io/?https://github.com/KengChiChang/conjoints_tweets/blob/modularize/demo-R.html)
+    R](https://htmlpreview.github.io/?https://github.com/TiagoVentura/conjoints_tweets/blob/83e1b98d3fd959c8f320b2104a199c8053ad3a53/demo-R.html)
 -   [demo to use in
-    python](https://htmlpreview.github.io/?https://github.com/KengChiChang/conjoints_tweets/blob/modularize/demo-Python.html)
+    python](https://htmlpreview.github.io/?https://github.com/TiagoVentura/conjoints_tweets/blob/83e1b98d3fd959c8f320b2104a199c8053ad3a53/demo-Python.html)
 
 ## Setup
 
