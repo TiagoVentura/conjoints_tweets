@@ -65,6 +65,11 @@ parameters:
     -   `quote_author_tag` (str): twitter username/handle of author of
         quoted tweet
     -   `quote_text` (str): text of quoted tweet
+    -   `reply` (True/False): whether or not to print quoted tweet
+    -   `reply_author_avatar` (str): avatar of author of quoted tweet
+    -   `reply_author_name` (str): name of author of quoted tweet
+    -   `reply_author_tag` (str): twitter username/handle of author of quoted tweet
+    -   `reply_text` (str): text of quoted tweet
 -   Returns:
     -   image: Twitter image in PIL Image format
 
@@ -87,14 +92,25 @@ SaveTweet(tweet, "output/tweet.png", quality = 95)
 
 ## QuoteTweet
 
-To generate a quote tweet, you just need to add quote=true
+To generate a quote tweet, you just need to add quote=True
 
 ``` python
 qt = CreateTweet(quote=True)
-SaveTweet(qt, "output/qttweet.png", quality = 95)
+SaveTweet(qt, "output/tweet_quote.png", quality = 95)
 ```
 
-<img src="output/qttweet.png" width="1050" />
+<img src="output/tweet_quote.png" width="1050" />
+
+## Tweet with reply
+
+To generate a tweet with reply, you just need to add reply=True
+
+``` python
+qt = CreateTweet(quote=True, reply=True)
+SaveTweet(qt, "output/tweet_quote_reply.png", quality = 95)
+```
+
+<img src="output/tweet_quote_reply.png" width="1050" />
 
 ## Another Example
 
@@ -114,12 +130,17 @@ img = CreateTweet(
     quote_author_avatar="input/avatar/woman_clean.png",
     quote_author_name="Mobsteroid",
     quote_author_tag="@mobsteroid",
-    quote_text="Now is the winter of our discontent. Made glorious summer by this sun of York; And all the clouds that lour'd upon our house. In the deep bosom of the ocean buried. Now are our brows bound with victorious wreaths. Our bruised arms hung up for monuments. Our stern alarums changed to merry meetings, Our dreadful marches to delightful measures."
+    quote_text="Now is the winter of our discontent. Made glorious summer by this sun of York; And all the clouds that lour'd upon our house. In the deep bosom of the ocean buried. Now are our brows bound with victorious wreaths. Our bruised arms hung up for monuments. Our stern alarums changed to merry meetings, Our dreadful marches to delightful measures.",
+    reply=True,
+    reply_author_avatar="input/avatar/woman_clean.png",
+    reply_author_name="FrozenPie",
+    reply_author_tag="@FrozenPie",
+    reply_text="In show dull give need so held. One order all scale sense her gay style wrote. Incommode our not one ourselves residence. Shall there whose those stand she end. So unaffected partiality indulgence dispatched to of celebrated remarkably. Unfeeling are had allowance own perceived abilities."
 )
-img.save('output/tweet_quote.png', quality=95)
+img.save('output/tweet_quote_reply.png', quality=95)
 ```
 
-<img src="output/tweet_quote.png" width="1050" />
+<img src="output/tweet_quote_reply.png" width="1050" />
 
 ## Rotating to generate the conjoints
 
