@@ -1,21 +1,11 @@
 ## ConjointTweets: Generating image-based conjoint tweets programmatically
 
-This document implements a python program to generate conjoint
-image-based tweets programatically and at scale. The code is inspired in
-two main sources with similar implementation.
+This repository implements a python program to generate conjoint
+image-based tweets programatically and at scale. 
 
--   This medium post
-    [here](https://medium.com/analytics-vidhya/how-to-create-twitter-screenshots-with-python-c142ef71fda7)
-    describing how to generate tweets’ screenshots in Python.
+The purpose of this tool is to facilitate the work for researchers interested in running survey experiments using images as conjoints, instead of text-based implementations.  
 
--   And Alessandro Vecchiato
-    [implementation](https://github.com/avecchiato/Introducing_Visual_Conjoints)
-    of visual conjoints for Twitter profiles.
-
-This is a work in progress and part of my ongoing collaboration with
-Kevin Munger (Penn State), Katherine McCabe (Rutger University) and
-Keng-Chi Chang (UCSD). Keng-Chi Chang made invaluable contributtions to
-this code.
+This is a work in progress and part of my ongoing collaboration with Kevin Munger (Penn State), Katherine McCabe (Rutger University) and Keng-Chi Chang (UCSD) -- who wrote a big part of this code.
 
 ## Demos
 
@@ -193,4 +183,16 @@ We hosted the API at a AWS RStudio server. However, the images and the api can b
 
 If you don't want go through all these steps, fell free to manually upload the images to qualtrics, and add the randomization directly to your survey. 
 
-This is a work in progresso. Suggestions are more than welcome!
+## Similar work
+
+The code is inspired in two main related works.
+
+-   This medium post
+    [here](https://medium.com/analytics-vidhya/how-to-create-twitter-screenshots-with-python-c142ef71fda7)
+    describing how to generate tweets’ screenshots in Python.
+
+-   And Alessandro Vecchiato
+    [implementation](https://github.com/avecchiato/Introducing_Visual_Conjoints)
+    of visual conjoints for Twitter profiles.
+    
+This is a work in progress. Suggestions are more than welcome!
