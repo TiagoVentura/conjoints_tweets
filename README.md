@@ -183,7 +183,7 @@ We hosted the API at a AWS RStudio server. However, the images and the api can b
 
 If you don't want go through all these steps, fell free to manually upload the images to qualtrics, and add the randomization directly to your survey. 
 
-## Similar work
+## Related work
 
 The code is inspired in two main related works.
 
