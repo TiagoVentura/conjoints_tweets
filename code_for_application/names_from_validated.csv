@@ -1,0 +1,601 @@
+name.x,first,last,w.asian,identity,mean.correct,sd.correct,name.y,proportion_male,gender
+Thomas Wagner,Thomas,Wagner,0,White,0.9306930693069307,0.25524207108446123,Thomas,0.9964,male
+Richard Hoffman,Richard,Hoffman,0,White,0.9247311827956989,0.2652545594323927,Richard,0.9963,male
+Mary Meyer,Mary,Meyer,0,White,0.9111111111111111,0.28617761611461456,Mary,0.0036,female
+Richard Schmidt,Richard,Schmidt,0,White,0.9052631578947369,0.29440470807862057,Richard,0.9963,male
+Thomas Snyder,Thomas,Snyder,0,White,0.9047619047619048,0.2953065639704594,Thomas,0.9964,male
+Michael Wagner,Michael,Wagner,0,White,0.9,0.30151134457776363,Michael,0.9947,male
+Robert Snyder,Robert,Snyder,0,White,0.8899082568807339,0.3144498293988573,Robert,0.9959,male
+David Ryan,David,Ryan,0,White,0.8857142857142857,0.3196839098200005,David,0.9963,male
+Mark Hoffman,Mark,Hoffman,0,White,0.8857142857142857,0.3196839098200005,Mark,0.9967,male
+Mark Meyer,Mark,Meyer,0,White,0.8857142857142857,0.3196839098200005,Mark,0.9967,male
+Mary Ryan,Mary,Ryan,0,White,0.8842105263157894,0.32166977565333826,Mary,0.0036,female
+John Schmidt,John,Schmidt,0,White,0.8817204301075269,0.324689228192376,John,0.9961,male
+William Schmidt,William,Schmidt,0,White,0.8738738738738738,0.3334970932711576,William,0.9962,male
+James Hoffman,James,Hoffman,0,White,0.8725490196078431,0.3351242898575015,James,0.9956,male
+Robert Hoffman,Robert,Hoffman,0,White,0.8725490196078431,0.3351242898575015,Robert,0.9959,male
+Mark Hansen,Mark,Hansen,0,White,0.8723404255319149,0.33549970925075906,Mark,0.9967,male
+John Ryan,John,Ryan,0,White,0.8703703703703703,0.3374614576148845,John,0.9961,male
+William Snyder,William,Snyder,0,White,0.8695652173913043,0.3386265505758479,William,0.9962,male
+Richard Meyer,Richard,Meyer,0,White,0.8645833333333334,0.34396424742808945,Richard,0.9963,male
+Thomas Meyer,Thomas,Meyer,0,White,0.8641975308641975,0.34471315683307935,Thomas,0.9964,male
+Thomas Schmidt,Thomas,Schmidt,0,White,0.8640776699029126,0.34438190409634944,Thomas,0.9964,male
+John Snyder,John,Snyder,0,White,0.8596491228070176,0.3488842641593123,John,0.9961,male
+David Snyder,David,Snyder,0,White,0.8585858585858586,0.3502215336827858,David,0.9963,male
+David Wagner,David,Wagner,0,White,0.8571428571428571,0.35160542320387156,David,0.9963,male
+David Hoffman,David,Hoffman,0,White,0.8541666666666666,0.35479176002615415,David,0.9963,male
+John Meyer,John,Meyer,0,White,0.8515625,0.3569301250570318,John,0.9961,male
+Thomas Olson,Thomas,Olson,0,White,0.85,0.3593242603145979,Thomas,0.9964,male
+Mark Wagner,Mark,Wagner,0,White,0.8494623655913979,0.35953582875036627,Mark,0.9967,male
+James Ryan,James,Ryan,0,White,0.8488372093023255,0.36030842541176944,James,0.9956,male
+Mary Snyder,Mary,Snyder,0,White,0.8482142857142857,0.36042570996904816,Mary,0.0036,female
+Michael Hoffman,Michael,Hoffman,0,White,0.8478260869565217,0.3611575592573076,Michael,0.9947,male
+William Wagner,William,Wagner,0,White,0.8478260869565217,0.3611575592573076,William,0.9962,male
+William Hoffman,William,Hoffman,0,White,0.8476190476190476,0.3611134591827483,William,0.9962,male
+David Meyer,David,Meyer,0,White,0.8461538461538461,0.3625484438800155,David,0.9963,male
+David Schmidt,David,Schmidt,0,White,0.8461538461538461,0.3628001262733127,David,0.9963,male
+James Snyder,James,Snyder,0,White,0.8452380952380952,0.3638498173911941,James,0.9956,male
+James Schmidt,James,Schmidt,0,White,0.8446601941747572,0.36399961089717564,James,0.9956,male
+Mary Hoffman,Mary,Hoffman,0,White,0.84375,0.36499819754421575,Mary,0.0036,female
+Thomas Larson,Thomas,Larson,0,White,0.839622641509434,0.3686989339060152,Thomas,0.9964,male
+Mark Schmidt,Mark,Schmidt,0,White,0.8387096774193549,0.3697920267630219,Mark,0.9967,male
+Thomas Hansen,Thomas,Hansen,0,White,0.8380952380952381,0.37013016223531015,Thomas,0.9964,male
+John Hoffman,John,Hoffman,0,White,0.8378378378378378,0.37027116698540963,John,0.9961,male
+David Olson,David,Olson,0,White,0.8365384615384616,0.37157698370193437,David,0.9963,male
+William Larson,William,Larson,0,White,0.8352941176470589,0.373116183345764,William,0.9962,male
+Richard Olson,Richard,Olson,0,White,0.8333333333333334,0.3747658444979307,Richard,0.9963,male
+John Olson,John,Olson,0,White,0.8282828282828283,0.3790537100600475,John,0.9961,male
+Richard Ryan,Richard,Ryan,0,White,0.8279569892473119,0.37946346315435653,Richard,0.9963,male
+Robert Wagner,Robert,Wagner,0,White,0.8256880733944955,0.38112981887792574,Robert,0.9959,male
+Mary Schmidt,Mary,Schmidt,0,White,0.8241758241758241,0.3827795011754764,Mary,0.0036,female
+Thomas Hoffman,Thomas,Hoffman,0,White,0.8230088495575221,0.38336127346461935,Thomas,0.9964,male
+Thomas Ryan,Thomas,Ryan,0,White,0.819672131147541,0.38604571824109146,Thomas,0.9964,male
+Mark Ryan,Mark,Ryan,0,White,0.8191489361702128,0.386958527895024,Mark,0.9967,male
+John Larson,John,Larson,0,White,0.819047619047619,0.38682515382753957,John,0.9961,male
+Mark Snyder,Mark,Snyder,0,White,0.819047619047619,0.38682515382753957,Mark,0.9967,male
+Robert Ryan,Robert,Ryan,0,White,0.8181818181818182,0.387459809855867,Robert,0.9959,male
+Robert Meyer,Robert,Meyer,0,White,0.8173076923076923,0.3882853289003887,Robert,0.9959,male
+Michael Meyer,Michael,Meyer,0,White,0.8155339805825242,0.3897604295736685,Michael,0.9947,male
+Mary Olson,Mary,Olson,0,White,0.8152173913043478,0.390247817181721,Mary,0.0036,female
+Michael Snyder,Michael,Snyder,0,White,0.8152173913043478,0.390247817181721,Michael,0.9947,male
+Mary Wagner,Mary,Wagner,0,White,0.8144329896907216,0.3907763881902415,Mary,0.0036,female
+Richard Wagner,Richard,Wagner,0,White,0.8144329896907216,0.3907763881902415,Richard,0.9963,male
+Robert Larson,Robert,Larson,0,White,0.8141592920353983,0.3907107206830101,Robert,0.9959,male
+David Larson,David,Larson,0,White,0.8125,0.39184602471712554,David,0.9963,male
+John Hansen,John,Hansen,0,White,0.8043478260869565,0.3988756294854575,John,0.9961,male
+Mark Larson,Mark,Larson,0,White,0.803921568627451,0.3989892101639066,Mark,0.9967,male
+Robert Olson,Robert,Olson,0,White,0.801980198019802,0.4004947435409863,Robert,0.9959,male
+Mary Hansen,Mary,Hansen,0,White,0.8018867924528302,0.40047142031681365,Mary,0.0036,female
+William Meyer,William,Meyer,0,White,0.8,0.40183067317995635,William,0.9962,male
+Richard Larson,Richard,Larson,0,White,0.7981651376146789,0.40322350464635176,Richard,0.9963,male
+Robert Hansen,Robert,Hansen,0,White,0.7980769230769231,0.4033791175457575,Robert,0.9959,male
+Robert Schmidt,Robert,Schmidt,0,White,0.7961165048543689,0.4048534787237514,Robert,0.9959,male
+Mark Olson,Mark,Olson,0,White,0.7889908256880734,0.4099095314689898,Mark,0.9967,male
+David Hansen,David,Hansen,0,White,0.7884615384615384,0.41037697382074245,David,0.9963,male
+Michael Schmidt,Michael,Schmidt,0,White,0.7878787878787878,0.4108907018066591,Michael,0.9947,male
+Michael Hansen,Michael,Hansen,0,White,0.7872340425531915,0.41145794871387054,Michael,0.9947,male
+James Meyer,James,Meyer,0,White,0.7864077669902912,0.4118462838337987,James,0.9956,male
+William Ryan,William,Ryan,0,White,0.7857142857142857,0.41243556197726833,William,0.9962,male
+James Olson,James,Olson,0,White,0.78125,0.41556872887773044,James,0.9956,male
+William Hansen,William,Hansen,0,White,0.7741935483870968,0.4203785110666575,William,0.9962,male
+Michael Ryan,Michael,Ryan,0,White,0.7640449438202247,0.42699989115690434,Michael,0.9947,male
+Richard Hansen,Richard,Hansen,0,White,0.7628865979381443,0.4275218287869604,Richard,0.9963,male
+Richard Johnston,Richard,Johnston,0,White,0.7608695652173914,0.4288898323512862,Richard,0.9963,male
+Mary Johnston,Mary,Johnston,0,White,0.7578947368421053,0.4306301536438474,Mary,0.0036,female
+John Wagner,John,Wagner,0,White,0.7570093457943925,0.4309078064362274,John,0.9961,male
+Richard Snyder,Richard,Snyder,0,White,0.7564102564102564,0.4320262568949793,Richard,0.9963,male
+David Johnston,David,Johnston,0,White,0.7553191489361702,0.4322029146296004,David,0.9963,male
+Mark Johnston,Mark,Johnston,0,White,0.7553191489361702,0.4322029146296004,Mark,0.9967,male
+James Larson,James,Larson,0,White,0.7526881720430108,0.4337880162138561,James,0.9956,male
+John Johnston,John,Johnston,0,White,0.7475728155339806,0.43652923900772295,John,0.9961,male
+Mary Larson,Mary,Larson,0,White,0.7471264367816092,0.43717887363044405,Mary,0.0036,female
+James Wagner,James,Wagner,0,White,0.7415730337078652,0.44025018423517,James,0.9956,male
+Michael Larson,Michael,Larson,0,White,0.7375,0.4427689056352855,Michael,0.9947,male
+Michael Olson,Michael,Olson,0,White,0.7295081967213115,0.4460457161816421,Michael,0.9947,male
+James Hansen,James,Hansen,0,White,0.7241379310344828,0.4495386568579204,James,0.9956,male
+William Olson,William,Olson,0,White,0.717391304347826,0.45273496010290487,William,0.9962,male
+Thomas Johnston,Thomas,Johnston,0,White,0.6979166666666666,0.46157149566891054,Thomas,0.9964,male
+William Johnston,William,Johnston,0,White,0.6896551724137931,0.4646418555974198,William,0.9962,male
+Robert Johnston,Robert,Johnston,0,White,0.68,0.4688261722621507,Robert,0.9959,male
+Michael Johnston,Michael,Johnston,0,White,0.6235294117647059,0.4873756395282824,Michael,0.9947,male
+James Johnston,James,Johnston,0,White,0.6125,0.4902530991904312,James,0.9956,male
+Wei Li,Wei,Li,0,Asian or Pacific Islander,0.9104477611940298,0.2876942444512339,Wei,0.7689,male
+Hung Chen,Hung,Chen,0,Asian or Pacific Islander,0.890625,0.3145764348029479,Hung,1,male
+Hung Wang,Hung,Wang,0,Asian or Pacific Islander,0.8823529411764706,0.32458523544031886,Hung,1,male
+Jian Li,Jian,Li,0,Asian or Pacific Islander,0.881578947368421,0.3252529380101132,Jian,0.9808,male
+May Chen,May,Chen,1,Asian or Pacific Islander,0.8777777777777778,0.3293772734489573,May,0.0207,female
+Hong Wang,Hong,Wang,0,Asian or Pacific Islander,0.8714285714285714,0.3371418043988196,Hong,0.2734,female
+Li Chen,Li,Chen,0,Asian or Pacific Islander,0.8666666666666667,0.34280333180088157,Li,0.2752,female
+Young Le,Young,Le,0,Asian or Pacific Islander,0.8636363636363636,0.34580401903450975,Young,0.7321,male
+Young Li,Young,Li,0,Asian or Pacific Islander,0.8615384615384616,0.34807161066919284,Young,0.7321,male
+Wei Yang,Wei,Yang,0,Asian or Pacific Islander,0.855072463768116,0.35460675480612985,Wei,0.7689,male
+Jin Chen,Jin,Chen,0,Asian or Pacific Islander,0.8529411764705882,0.35679777634476006,Jin,0.7081,male
+Thanh Wang,Thanh,Wang,0,Asian or Pacific Islander,0.8524590163934426,0.35758754516763636,Thanh,0.6088,male
+Alan Wang,Alan,Wang,1,Asian or Pacific Islander,0.8513513513513513,0.3581700993475614,Alan,0.9968,male
+Hung Kim,Hung,Kim,0,Asian or Pacific Islander,0.8513513513513513,0.3581700993475614,Hung,1,male
+Dan Yang,Dan,Yang,1,Asian or Pacific Islander,0.8484848484848485,0.3612978418647564,Dan,0.9954,male
+Andy Wang,Andy,Wang,1,Asian or Pacific Islander,0.8450704225352113,0.36441292606616554,Andy,0.9881,male
+Jin Yang,Jin,Yang,0,Asian or Pacific Islander,0.8405797101449275,0.36874941299243813,Jin,0.7081,male
+Hung Yang,Hung,Yang,0,Asian or Pacific Islander,0.8354430379746836,0.3731494423540171,Hung,1,male
+Jin Wang,Jin,Wang,0,Asian or Pacific Islander,0.8354430379746836,0.3731494423540171,Jin,0.7081,male
+Jin Kim,Jin,Kim,0,Asian or Pacific Islander,0.8333333333333334,0.374916322658782,Jin,0.7081,male
+Jin Le,Jin,Le,0,Asian or Pacific Islander,0.8333333333333334,0.37529331252040077,Jin,0.7081,male
+Amy Li,Amy,Li,1,Asian or Pacific Islander,0.8309859154929577,0.37743175326172723,Amy,0.0026,female
+Li Tran,Li,Tran,0,Asian or Pacific Islander,0.8309859154929577,0.37743175326172723,Li,0.2752,female
+Grace Yang,Grace,Yang,1,Asian or Pacific Islander,0.8305084745762712,0.3784060204413424,Grace,0.0021,female
+Amy Yang,Amy,Yang,1,Asian or Pacific Islander,0.8301886792452831,0.3790600245041255,Amy,0.0026,female
+May Yang,May,Yang,1,Asian or Pacific Islander,0.8285714285714286,0.3796042398103419,May,0.0207,female
+Hong Pham,Hong,Pham,0,Asian or Pacific Islander,0.8255813953488372,0.3816946875099576,Hong,0.2734,female
+Grace Chen,Grace,Chen,1,Asian or Pacific Islander,0.8241758241758241,0.3827795011754764,Grace,0.0021,female
+Hong Chen,Hong,Chen,0,Asian or Pacific Islander,0.8227848101265823,0.3842906776055266,Hong,0.2734,female
+Peter Li,Peter,Li,1,Asian or Pacific Islander,0.821917808219178,0.38522957633600546,Peter,0.9966,male
+Jian Yang,Jian,Yang,0,Asian or Pacific Islander,0.8205128205128205,0.38624363966821407,Jian,0.9808,male
+Yong Pham,Yong,Pham,0,Asian or Pacific Islander,0.819672131147541,0.3876509048663705,Yong,0.6989,male
+Yong Kim,Yong,Kim,0,Asian or Pacific Islander,0.8194444444444444,0.3873488397177316,Yong,0.6989,male
+Hong Le,Hong,Le,0,Asian or Pacific Islander,0.8157894736842105,0.3902316001484067,Hong,0.2734,female
+Hong Li,Hong,Li,0,Asian or Pacific Islander,0.8157894736842105,0.3902316001484067,Hong,0.2734,female
+Thanh Li,Thanh,Li,0,Asian or Pacific Islander,0.8125,0.39277493797177815,Thanh,0.6088,male
+Jian Wang,Jian,Wang,0,Asian or Pacific Islander,0.8108108108108109,0.3943323011333738,Jian,0.9808,male
+Minh Le,Minh,Le,0,Asian or Pacific Islander,0.810126582278481,0.3947069463729927,Minh,0.8659,male
+Thanh Le,Thanh,Le,0,Asian or Pacific Islander,0.8082191780821918,0.396426196247848,Thanh,0.6088,male
+Li Li,Li,Li,0,Asian or Pacific Islander,0.8064516129032258,0.3983041789032374,Li,0.2752,female
+Jane Li,Jane,Li,1,Asian or Pacific Islander,0.8059701492537313,0.39843656466886784,Jane,0.0029,female
+Minh Yang,Minh,Yang,0,Asian or Pacific Islander,0.8059701492537313,0.39843656466886784,Minh,0.8659,male
+Wei Le,Wei,Le,0,Asian or Pacific Islander,0.8059701492537313,0.39843656466886784,Wei,0.7689,male
+Cindy Li,Cindy,Li,1,Asian or Pacific Islander,0.8032786885245902,0.40081883401970775,Cindy,0.0028,female
+Jane Yang,Jane,Yang,1,Asian or Pacific Islander,0.8032786885245902,0.40081883401970775,Jane,0.0029,female
+Jenny Li,Jenny,Li,1,Asian or Pacific Islander,0.803030303030303,0.4007568597117966,Jenny,0.0062,female
+Li Nguyen,Li,Nguyen,0,Asian or Pacific Islander,0.8026315789473685,0.4006573545930159,Li,0.2752,female
+Eric Wang,Eric,Wang,1,Asian or Pacific Islander,0.7972972972972973,0.4047569786593151,Eric,0.9947,male
+Minh Chen,Minh,Chen,0,Asian or Pacific Islander,0.7966101694915254,0.4059752420236703,Minh,0.8659,male
+Jian Pham,Jian,Pham,0,Asian or Pacific Islander,0.7945205479452054,0.4068477776211284,Jian,0.9808,male
+Thanh Chen,Thanh,Chen,0,Asian or Pacific Islander,0.7945205479452054,0.4068477776211284,Thanh,0.6088,male
+Young Wang,Young,Wang,0,Asian or Pacific Islander,0.7941176470588235,0.4073512375440995,Young,0.7321,male
+Yong Li,Yong,Li,0,Asian or Pacific Islander,0.7931034482758621,0.40861858377396965,Yong,0.6989,male
+Minh Li,Minh,Li,0,Asian or Pacific Islander,0.7922077922077922,0.4083877909943188,Minh,0.8659,male
+Minh Wang,Minh,Wang,0,Asian or Pacific Islander,0.7922077922077922,0.4083877909943188,Minh,0.8659,male
+May Wang,May,Wang,1,Asian or Pacific Islander,0.7916666666666666,0.4089664058657637,May,0.0207,female
+Andy Yang,Andy,Yang,1,Asian or Pacific Islander,0.7910447761194029,0.4096307810121215,Andy,0.9881,male
+Li Kim,Li,Kim,0,Asian or Pacific Islander,0.7901234567901234,0.40975753143523946,Li,0.2752,female
+Yong Wang,Yong,Wang,0,Asian or Pacific Islander,0.7901234567901234,0.40975753143523946,Yong,0.6989,male
+Li Wang,Li,Wang,0,Asian or Pacific Islander,0.7894736842105263,0.41039134083406165,Li,0.2752,female
+Yong Chen,Yong,Chen,0,Asian or Pacific Islander,0.7878787878787878,0.4119429204355498,Yong,0.6989,male
+Jin Li,Jin,Li,0,Asian or Pacific Islander,0.7857142857142857,0.4132885836992707,Jin,0.7081,male
+Li Pham,Li,Pham,0,Asian or Pacific Islander,0.7833333333333333,0.415450201656585,Li,0.2752,female
+Alan Chen,Alan,Chen,1,Asian or Pacific Islander,0.782051282051282,0.4155245752788548,Alan,0.9968,male
+Albert Chen,Albert,Chen,1,Asian or Pacific Islander,0.7816091954022989,0.4155491563098284,Albert,0.9944,male
+Sam Yang,Sam,Yang,1,Asian or Pacific Islander,0.7794117647058824,0.4177261916648386,Sam,0.9872,male
+Hong Yang,Hong,Yang,0,Asian or Pacific Islander,0.7764705882352941,0.4190826315905257,Hong,0.2734,female
+Peter Chen,Peter,Chen,1,Asian or Pacific Islander,0.7763157894736842,0.41948171864897965,Peter,0.9966,male
+Dan Kim,Dan,Kim,1,Asian or Pacific Islander,0.7727272727272727,0.4222815154866222,Dan,0.9954,male
+Wei Kim,Wei,Kim,0,Asian or Pacific Islander,0.7727272727272727,0.4214717707041866,Wei,0.7689,male
+Alan Li,Alan,Li,1,Asian or Pacific Islander,0.7721518987341772,0.4221242704558541,Alan,0.9968,male
+Thanh Yang,Thanh,Yang,0,Asian or Pacific Islander,0.7714285714285715,0.4229444261101448,Thanh,0.6088,male
+Yong Nguyen,Yong,Nguyen,0,Asian or Pacific Islander,0.7714285714285715,0.4229444261101448,Yong,0.6989,male
+David Yang,David,Yang,1,Asian or Pacific Islander,0.7702702702702703,0.4235304099414013,David,0.9963,male
+Hong Nguyen,Hong,Nguyen,0,Asian or Pacific Islander,0.7701149425287356,0.4231979421765856,Hong,0.2734,female
+Young Chen,Young,Chen,0,Asian or Pacific Islander,0.7701149425287356,0.4231979421765856,Young,0.7321,male
+Amy Wang,Amy,Wang,1,Asian or Pacific Islander,0.7671232876712328,0.4255893934430971,Amy,0.0026,female
+May Le,May,Le,1,Asian or Pacific Islander,0.7671232876712328,0.4255893934430971,May,0.0207,female
+Jin Tran,Jin,Tran,0,Asian or Pacific Islander,0.7666666666666667,0.4265218680850986,Jin,0.7081,male
+David Chen,David,Chen,1,Asian or Pacific Islander,0.7638888888888888,0.4276715718818953,David,0.9963,male
+Andrew Wang,Andrew,Wang,1,Asian or Pacific Islander,0.7619047619047619,0.4293387907410918,Andrew,0.996,male
+Minh Kim,Minh,Kim,0,Asian or Pacific Islander,0.7611940298507462,0.42957174723720287,Minh,0.8659,male
+Alice Chen,Alice,Chen,1,Asian or Pacific Islander,0.7605633802816901,0.4297769764621901,Alice,0.0034,female
+Young Nguyen,Young,Nguyen,0,Asian or Pacific Islander,0.7605633802816901,0.4297769764621901,Young,0.7321,male
+David Wang,David,Wang,1,Asian or Pacific Islander,0.76,0.42995914325068707,David,0.9963,male
+Minh Nguyen,Minh,Nguyen,0,Asian or Pacific Islander,0.7590361445783133,0.43026825001424435,Minh,0.8659,male
+Thanh Kim,Thanh,Kim,0,Asian or Pacific Islander,0.7586206896551724,0.4316571425184985,Thanh,0.6088,male
+Yong Tran,Yong,Tran,0,Asian or Pacific Islander,0.7575757575757576,0.430730492253948,Yong,0.6989,male
+David Li,David,Li,1,Asian or Pacific Islander,0.7571428571428571,0.4319055950832105,David,0.9963,male
+Hung Li,Hung,Li,0,Asian or Pacific Islander,0.7564102564102564,0.4320262568949793,Hung,1,male
+Jin Pham,Jin,Pham,0,Asian or Pacific Islander,0.7558139534883721,0.4321232534311834,Jin,0.7081,male
+Albert Wang,Albert,Wang,1,Asian or Pacific Islander,0.75,0.436232171512701,Albert,0.9944,male
+Eric Kim,Eric,Kim,1,Asian or Pacific Islander,0.75,0.43588989435406733,Eric,0.9947,male
+Jane Wang,Jane,Wang,1,Asian or Pacific Islander,0.75,0.4357446703305951,Jane,0.0029,female
+Jian Chen,Jian,Chen,0,Asian or Pacific Islander,0.75,0.43588989435406733,Jian,0.9808,male
+Vivian Yang,Vivian,Yang,1,Asian or Pacific Islander,0.75,0.4357446703305951,Vivian,0.0083,female
+Wei Tran,Wei,Tran,0,Asian or Pacific Islander,0.75,0.4364357804719847,Wei,0.7689,male
+Amy Le,Amy,Le,1,Asian or Pacific Islander,0.7468354430379747,0.4376028649879186,Amy,0.0026,female
+Yong Yang,Yong,Yang,0,Asian or Pacific Islander,0.7432432432432432,0.43982595595196894,Yong,0.6989,male
+May Kim,May,Kim,1,Asian or Pacific Islander,0.7424242424242424,0.4406500813258681,May,0.0207,female
+Young Yang,Young,Yang,0,Asian or Pacific Islander,0.7424242424242424,0.4406500813258681,Young,0.7321,male
+Wei Wang,Wei,Wang,0,Asian or Pacific Islander,0.7407407407407407,0.44095855184409843,Wei,0.7689,male
+Amy Chen,Amy,Chen,1,Asian or Pacific Islander,0.7397260273972602,0.44182064172246954,Amy,0.0026,female
+Jane Le,Jane,Le,1,Asian or Pacific Islander,0.7391304347826086,0.4423258684646914,Jane,0.0029,female
+Peter Wang,Peter,Wang,1,Asian or Pacific Islander,0.7391304347826086,0.4423258684646914,Peter,0.9966,male
+Alan Yang,Alan,Yang,1,Asian or Pacific Islander,0.7377049180327869,0.4435327625727437,Alan,0.9968,male
+Jian Le,Jian,Le,0,Asian or Pacific Islander,0.7361111111111112,0.4438327167280311,Jian,0.9808,male
+Jian Kim,Jian,Kim,0,Asian or Pacific Islander,0.7352941176470589,0.44445663820946985,Jian,0.9808,male
+Wei Chen,Wei,Chen,0,Asian or Pacific Islander,0.7352941176470589,0.44445663820946985,Wei,0.7689,male
+Hong Kim,Hong,Kim,0,Asian or Pacific Islander,0.734375,0.4451569190068627,Hong,0.2734,female
+Jane Kim,Jane,Kim,1,Asian or Pacific Islander,0.7341772151898734,0.4445931807813449,Jane,0.0029,female
+Hung Le,Hung,Le,0,Asian or Pacific Islander,0.7333333333333333,0.4459484908564835,Hung,1,male
+Vivian Wang,Vivian,Wang,1,Asian or Pacific Islander,0.7301587301587301,0.4474425249214014,Vivian,0.0083,female
+Andrew Le,Andrew,Le,1,Asian or Pacific Islander,0.7297297297297297,0.44713080116517456,Andrew,0.996,male
+Albert Yang,Albert,Yang,1,Asian or Pacific Islander,0.7285714285714285,0.44790748822990484,Albert,0.9944,male
+Alex Yang,Alex,Yang,1,Asian or Pacific Islander,0.7285714285714285,0.44790748822990484,Alex,0.9657,male
+Dan Nguyen,Dan,Nguyen,1,Asian or Pacific Islander,0.7285714285714285,0.44790748822990484,Dan,0.9954,male
+Andy Li,Andy,Li,1,Asian or Pacific Islander,0.7281553398058253,0.4470858749217428,Andy,0.9881,male
+Cindy Yang,Cindy,Yang,1,Asian or Pacific Islander,0.7272727272727273,0.4482822077654243,Cindy,0.0028,female
+Dan Wang,Dan,Wang,1,Asian or Pacific Islander,0.7272727272727273,0.44877455520405946,Dan,0.9954,male
+Alice Yang,Alice,Yang,1,Asian or Pacific Islander,0.7258064516129032,0.4497487400071536,Alice,0.0034,female
+Andrew Chen,Andrew,Chen,1,Asian or Pacific Islander,0.725,0.44933143021295,Andrew,0.996,male
+Jian Tran,Jian,Tran,0,Asian or Pacific Islander,0.725,0.44933143021295,Jian,0.9808,male
+Andy Chen,Andy,Chen,1,Asian or Pacific Islander,0.7246376811594203,0.4499692136859278,Andy,0.9881,male
+Cecilia Wang,Cecilia,Wang,1,Asian or Pacific Islander,0.7246376811594203,0.4499692136859278,Cecilia,0.0023,female
+Li Yang,Li,Yang,0,Asian or Pacific Islander,0.7246376811594203,0.4499692136859278,Li,0.2752,female
+Wei Nguyen,Wei,Nguyen,0,Asian or Pacific Islander,0.7246376811594203,0.4499692136859278,Wei,0.7689,male
+Young Kim,Young,Kim,0,Asian or Pacific Islander,0.7230769230769231,0.4509605133660647,Young,0.7321,male
+Alice Wang,Alice,Wang,1,Asian or Pacific Islander,0.7222222222222222,0.45104642721034555,Alice,0.0034,female
+Jennifer Wang,Jennifer,Wang,1,Asian or Pacific Islander,0.7222222222222222,0.45104642721034555,Jennifer,0.0031,female
+Minh Pham,Minh,Pham,0,Asian or Pacific Islander,0.7215189873417721,0.4511156785172619,Minh,0.8659,male
+Cindy Wang,Cindy,Wang,1,Asian or Pacific Islander,0.7209302325581395,0.4511726626756409,Cindy,0.0028,female
+Jenny Chen,Jenny,Chen,1,Asian or Pacific Islander,0.7195121951219512,0.45200213710579773,Jenny,0.0062,female
+Hung Pham,Hung,Pham,0,Asian or Pacific Islander,0.7183098591549296,0.4530247105070317,Hung,1,male
+Jennifer Chen,Jennifer,Chen,1,Asian or Pacific Islander,0.717948717948718,0.4529108136578383,Jennifer,0.0031,female
+Eric Yang,Eric,Yang,1,Asian or Pacific Islander,0.7162162162162162,0.45391056599864793,Eric,0.9947,male
+Hong Tran,Hong,Tran,0,Asian or Pacific Islander,0.7162162162162162,0.45391056599864793,Hong,0.2734,female
+Jenny Yang,Jenny,Yang,1,Asian or Pacific Islander,0.7162162162162162,0.45391056599864793,Jenny,0.0062,female
+Sam Li,Sam,Li,1,Asian or Pacific Islander,0.7123287671232876,0.4558097816826944,Sam,0.9872,male
+Andrew Yang,Andrew,Yang,1,Asian or Pacific Islander,0.7108433734939759,0.45612686729835106,Andrew,0.996,male
+Alex Chen,Alex,Chen,1,Asian or Pacific Islander,0.7101449275362319,0.4570187689337444,Alex,0.9657,male
+Jennifer Li,Jennifer,Li,1,Asian or Pacific Islander,0.7101449275362319,0.4570187689337444,Jennifer,0.0031,female
+Yong Le,Yong,Le,0,Asian or Pacific Islander,0.7101449275362319,0.4570187689337444,Yong,0.6989,male
+Alice Li,Alice,Li,1,Asian or Pacific Islander,0.7088607594936709,0.4571903809859547,Alice,0.0034,female
+Sam Le,Sam,Le,1,Asian or Pacific Islander,0.7083333333333334,0.45771939248137733,Sam,0.9872,male
+Eric Li,Eric,Li,1,Asian or Pacific Islander,0.7076923076923077,0.4583624699363527,Eric,0.9947,male
+Cindy Le,Cindy,Le,1,Asian or Pacific Islander,0.7073170731707317,0.45779409027162443,Cindy,0.0028,female
+May Pham,May,Pham,1,Asian or Pacific Islander,0.7066666666666667,0.4583558553025041,May,0.0207,female
+Cecilia Yang,Cecilia,Yang,1,Asian or Pacific Islander,0.7058823529411765,0.45834924851410563,Cecilia,0.0023,female
+Young Pham,Young,Pham,0,Asian or Pacific Islander,0.7058823529411765,0.4590328421057631,Young,0.7321,male
+Eric Le,Eric,Le,1,Asian or Pacific Islander,0.7014925373134329,0.4610569337463495,Eric,0.9947,male
+Grace Li,Grace,Li,1,Asian or Pacific Islander,0.7014925373134329,0.4610569337463495,Grace,0.0021,female
+Andrew Li,Andrew,Li,1,Asian or Pacific Islander,0.7011494252873564,0.46040787096336083,Andrew,0.996,male
+Alex Wang,Alex,Wang,1,Asian or Pacific Islander,0.7,0.4611488131266319,Alex,0.9657,male
+Vivian Chen,Vivian,Chen,1,Asian or Pacific Islander,0.6984126984126984,0.46263343794052075,Vivian,0.0083,female
+Jian Nguyen,Jian,Nguyen,0,Asian or Pacific Islander,0.696969696969697,0.4630898556999651,Jian,0.9808,male
+Sam Chen,Sam,Chen,1,Asian or Pacific Islander,0.6951219512195121,0.4631887434996534,Sam,0.9872,male
+Grace Nguyen,Grace,Nguyen,1,Asian or Pacific Islander,0.6944444444444444,0.46387494942181934,Grace,0.0021,female
+May Nguyen,May,Nguyen,1,Asian or Pacific Islander,0.6933333333333334,0.46421492381815505,May,0.0207,female
+Jennifer Yang,Jennifer,Yang,1,Asian or Pacific Islander,0.6931818181818182,0.4638161185745163,Jennifer,0.0031,female
+Peter Yang,Peter,Yang,1,Asian or Pacific Islander,0.6923076923076923,0.46513025470953173,Peter,0.9966,male
+Alex Li,Alex,Li,1,Asian or Pacific Islander,0.6911764705882353,0.4654432309413774,Alex,0.9657,male
+Dan Li,Dan,Li,1,Asian or Pacific Islander,0.6875,0.4664368029425214,Dan,0.9954,male
+Andrew Nguyen,Andrew,Nguyen,1,Asian or Pacific Islander,0.6857142857142857,0.4675826561931813,Andrew,0.996,male
+May Li,May,Li,1,Asian or Pacific Islander,0.684931506849315,0.46775801937323924,May,0.0207,female
+Thanh Nguyen,Thanh,Nguyen,0,Asian or Pacific Islander,0.6794871794871795,0.46969428420273607,Thanh,0.6088,male
+Thanh Tran,Thanh,Tran,0,Asian or Pacific Islander,0.676056338028169,0.471309661242674,Thanh,0.6088,male
+Young Tran,Young,Tran,0,Asian or Pacific Islander,0.676056338028169,0.471309661242674,Young,0.7321,male
+Sam Nguyen,Sam,Nguyen,1,Asian or Pacific Islander,0.6756756756756757,0.4713172478992737,Sam,0.9872,male
+David Nguyen,David,Nguyen,1,Asian or Pacific Islander,0.6753246753246753,0.47132395947782424,David,0.9963,male
+Jenny Kim,Jenny,Kim,1,Asian or Pacific Islander,0.6721311475409836,0.47333256368751403,Jenny,0.0062,female
+Jenny Wang,Jenny,Wang,1,Asian or Pacific Islander,0.671875,0.4732423621500228,Jenny,0.0062,female
+Cindy Chen,Cindy,Chen,1,Asian or Pacific Islander,0.6716417910447762,0.47316022340738384,Cindy,0.0028,female
+Jin Nguyen,Jin,Nguyen,0,Asian or Pacific Islander,0.6714285714285714,0.47308511264837305,Jin,0.7081,male
+Vivian Pham,Vivian,Pham,1,Asian or Pacific Islander,0.6712328767123288,0.47301616487964016,Vivian,0.0083,female
+Wei Pham,Wei,Pham,0,Asian or Pacific Islander,0.6710526315789473,0.47295265146345866,Wei,0.7689,male
+Sam Wang,Sam,Wang,1,Asian or Pacific Islander,0.6708860759493671,0.47289395426789116,Sam,0.9872,male
+Dan Chen,Dan,Chen,1,Asian or Pacific Islander,0.6666666666666666,0.4742358046305385,Dan,0.9954,male
+Dan Le,Dan,Le,1,Asian or Pacific Islander,0.6666666666666666,0.4750168687962835,Dan,0.9954,male
+Eric Nguyen,Eric,Nguyen,1,Asian or Pacific Islander,0.6666666666666666,0.4753826885415284,Eric,0.9947,male
+Hung Nguyen,Hung,Nguyen,0,Asian or Pacific Islander,0.6666666666666666,0.4753826885415284,Hung,1,male
+Alan Kim,Alan,Kim,1,Asian or Pacific Islander,0.6617647058823529,0.47662664501235463,Alan,0.9968,male
+Vivian Li,Vivian,Li,1,Asian or Pacific Islander,0.6588235294117647,0.47691821142849733,Vivian,0.0083,female
+Thanh Pham,Thanh,Pham,0,Asian or Pacific Islander,0.6582278481012658,0.47733437050543803,Thanh,0.6088,male
+Jane Chen,Jane,Chen,1,Asian or Pacific Islander,0.6571428571428571,0.47809144373375745,Jane,0.0029,female
+Li Le,Li,Le,0,Asian or Pacific Islander,0.6547619047619048,0.47830140265765475,Li,0.2752,female
+Alice Le,Alice,Le,1,Asian or Pacific Islander,0.6527777777777778,0.4794281282981244,Alice,0.0034,female
+Jenny Tran,Jenny,Tran,1,Asian or Pacific Islander,0.6515151515151515,0.4801417817021661,Jenny,0.0062,female
+Alan Pham,Alan,Pham,1,Asian or Pacific Islander,0.65,0.4799789024899355,Alan,0.9968,male
+Vivian Kim,Vivian,Kim,1,Asian or Pacific Islander,0.6486486486486487,0.4806511688262489,Vivian,0.0083,female
+Albert Nguyen,Albert,Nguyen,1,Asian or Pacific Islander,0.647887323943662,0.4810284087035601,Albert,0.9944,male
+Cecilia Li,Cecilia,Li,1,Asian or Pacific Islander,0.647887323943662,0.4810284087035601,Cecilia,0.0023,female
+Amy Nguyen,Amy,Nguyen,1,Asian or Pacific Islander,0.6461538461538462,0.4818833245315078,Amy,0.0026,female
+Hung Tran,Hung,Tran,0,Asian or Pacific Islander,0.6461538461538462,0.4818833245315078,Hung,1,male
+Cindy Nguyen,Cindy,Nguyen,1,Asian or Pacific Islander,0.6455696202531646,0.4813968639321408,Cindy,0.0028,female
+Eric Chen,Eric,Chen,1,Asian or Pacific Islander,0.6451612903225806,0.48237031531795893,Eric,0.9947,male
+Peter Le,Peter,Le,1,Asian or Pacific Islander,0.6417910447761194,0.4830927051164928,Peter,0.9966,male
+Peter Kim,Peter,Kim,1,Asian or Pacific Islander,0.6323529411764706,0.48574951362942237,Peter,0.9966,male
+Alex Kim,Alex,Kim,1,Asian or Pacific Islander,0.6301369863013698,0.4861083931213425,Alex,0.9657,male
+Cecilia Chen,Cecilia,Chen,1,Asian or Pacific Islander,0.6290322580645161,0.48700728670422816,Cecilia,0.0023,female
+Andy Nguyen,Andy,Nguyen,1,Asian or Pacific Islander,0.6285714285714286,0.48667545866870393,Andy,0.9881,male
+Alice Nguyen,Alice,Nguyen,1,Asian or Pacific Islander,0.6271186440677966,0.4877218358133704,Alice,0.0034,female
+Jennifer Kim,Jennifer,Kim,1,Asian or Pacific Islander,0.6268656716417911,0.4872875106609372,Jennifer,0.0031,female
+Andrew Kim,Andrew,Kim,1,Asian or Pacific Islander,0.6266666666666667,0.48694672923957205,Andrew,0.996,male
+Alan Nguyen,Alan,Nguyen,1,Asian or Pacific Islander,0.6263736263736264,0.4864463347893955,Alan,0.9968,male
+Grace Le,Grace,Le,1,Asian or Pacific Islander,0.625,0.4879500364742666,Grace,0.0021,female
+Alice Kim,Alice,Kim,1,Asian or Pacific Islander,0.6231884057971014,0.4881371936900502,Alice,0.0034,female
+Alan Le,Alan,Le,1,Asian or Pacific Islander,0.6206896551724138,0.48802829002885106,Alan,0.9968,male
+Amy Kim,Amy,Kim,1,Asian or Pacific Islander,0.620253164556962,0.48842492713311164,Amy,0.0026,female
+Dan Tran,Dan,Tran,1,Asian or Pacific Islander,0.6195652173913043,0.4881539863416777,Dan,0.9954,male
+David Le,David,Le,1,Asian or Pacific Islander,0.6190476190476191,0.48952153824477423,David,0.9963,male
+Alex Le,Alex,Le,1,Asian or Pacific Islander,0.6176470588235294,0.4895752580296542,Alex,0.9657,male
+Minh Tran,Minh,Tran,0,Asian or Pacific Islander,0.6176470588235294,0.4895752580296542,Minh,0.8659,male
+Amy Pham,Amy,Pham,1,Asian or Pacific Islander,0.6162790697674418,0.4891434205932987,Amy,0.0026,female
+Jenny Le,Jenny,Le,1,Asian or Pacific Islander,0.6153846153846154,0.4902903378454601,Jenny,0.0062,female
+Albert Li,Albert,Li,1,Asian or Pacific Islander,0.6142857142857143,0.4902781565677319,Albert,0.9944,male
+Yong Patel,Yong,Patel,0,Asian or Pacific Islander,0.6119402985074627,0.49098614066093726,Yong,0.6989,male
+Cecilia Nguyen,Cecilia,Nguyen,1,Asian or Pacific Islander,0.611764705882353,0.4902408943099112,Cecilia,0.0023,female
+Jenny Nguyen,Jenny,Nguyen,1,Asian or Pacific Islander,0.6049382716049383,0.49190985824841454,Jenny,0.0062,female
+Jane Nguyen,Jane,Nguyen,1,Asian or Pacific Islander,0.6029411764705882,0.4929262571578128,Jane,0.0029,female
+Cecilia Pham,Cecilia,Pham,1,Asian or Pacific Islander,0.6,0.49343516379516894,Cecilia,0.0023,female
+Cindy Tran,Cindy,Tran,1,Asian or Pacific Islander,0.6,0.4929888180106566,Cindy,0.0028,female
+May Tran,May,Tran,1,Asian or Pacific Islander,0.6,0.49280538030458115,May,0.0207,female
+Vivian Nguyen,Vivian,Nguyen,1,Asian or Pacific Islander,0.6,0.4931969619160719,Vivian,0.0083,female
+Cindy Kim,Cindy,Kim,1,Asian or Pacific Islander,0.5974025974025974,0.4936368860370167,Cindy,0.0028,female
+Jennifer Le,Jennifer,Le,1,Asian or Pacific Islander,0.5972222222222222,0.4938986102892945,Jennifer,0.0031,female
+Grace Kim,Grace,Kim,1,Asian or Pacific Islander,0.5970149253731343,0.49419973549339014,Grace,0.0021,female
+Jennifer Nguyen,Jennifer,Nguyen,1,Asian or Pacific Islander,0.5921052631578947,0.4947088457924147,Jennifer,0.0031,female
+Eric Tran,Eric,Tran,1,Asian or Pacific Islander,0.5857142857142857,0.49615498814052933,Eric,0.9947,male
+Sam Kim,Sam,Kim,1,Asian or Pacific Islander,0.5857142857142857,0.49615498814052933,Sam,0.9872,male
+Hong Patel,Hong,Patel,0,Asian or Pacific Islander,0.5802469135802469,0.4965933328908121,Hong,0.2734,female
+Vivian Le,Vivian,Le,1,Asian or Pacific Islander,0.5774647887323944,0.4974785517554907,Vivian,0.0083,female
+Andrew Tran,Andrew,Tran,1,Asian or Pacific Islander,0.5735294117647058,0.4982409795961213,Andrew,0.996,male
+Cecilia Tran,Cecilia,Tran,1,Asian or Pacific Islander,0.5714285714285714,0.49884659592632397,Cecilia,0.0023,female
+Dan Pham,Dan,Pham,1,Asian or Pacific Islander,0.5671641791044776,0.4992078754785888,Dan,0.9954,male
+Cecilia Le,Cecilia,Le,1,Asian or Pacific Islander,0.5662650602409639,0.4986022189969834,Cecilia,0.0023,female
+Peter Nguyen,Peter,Nguyen,1,Asian or Pacific Islander,0.5652173913043478,0.4993602044724246,Peter,0.9966,male
+Albert Kim,Albert,Kim,1,Asian or Pacific Islander,0.5641025641025641,0.4990834089450871,Albert,0.9944,male
+David Kim,David,Kim,1,Asian or Pacific Islander,0.5633802816901409,0.49949672860925537,David,0.9963,male
+Grace Wang,Grace,Wang,1,Asian or Pacific Islander,0.5633802816901409,0.49949672860925537,Grace,0.0021,female
+Andy Kim,Andy,Kim,1,Asian or Pacific Islander,0.56,0.4997296566441997,Andy,0.9881,male
+Hung Patel,Hung,Patel,0,Asian or Pacific Islander,0.5584415584415584,0.4998290890396145,Hung,1,male
+Peter Tran,Peter,Tran,1,Asian or Pacific Islander,0.5543478260869565,0.49976105136030824,Peter,0.9966,male
+Albert Le,Albert,Le,1,Asian or Pacific Islander,0.5540540540540541,0.5004625775806638,Albert,0.9944,male
+Andy Le,Andy,Le,1,Asian or Pacific Islander,0.5512820512820513,0.5005824113797354,Andy,0.9881,male
+Sam Tran,Sam,Tran,1,Asian or Pacific Islander,0.55,0.5006325113218328,Sam,0.9872,male
+Grace Tran,Grace,Tran,1,Asian or Pacific Islander,0.5487804878048781,0.5006770483805582,Grace,0.0021,female
+Alex Nguyen,Alex,Nguyen,1,Asian or Pacific Islander,0.5441176470588235,0.5017528537548117,Alex,0.9657,male
+Peter Pham,Peter,Pham,1,Asian or Pacific Islander,0.5362318840579711,0.5023389453618746,Peter,0.9966,male
+Alex Tran,Alex,Tran,1,Asian or Pacific Islander,0.5294117647058824,0.5028452845140674,Alex,0.9657,male
+Alex Pham,Alex,Pham,1,Asian or Pacific Islander,0.524390243902439,0.5024780507729485,Alex,0.9657,male
+Jane Pham,Jane,Pham,1,Asian or Pacific Islander,0.5227272727272727,0.5023455953610855,Jane,0.0029,female
+David Tran,David,Tran,1,Asian or Pacific Islander,0.5194805194805194,0.502896599458671,David,0.9963,male
+Wei Patel,Wei,Patel,0,Asian or Pacific Islander,0.5185185185185185,0.5043486642416058,Wei,0.7689,male
+Eric Pham,Eric,Pham,1,Asian or Pacific Islander,0.5166666666666667,0.5039392842990978,Eric,0.9947,male
+Vivian Tran,Vivian,Tran,1,Asian or Pacific Islander,0.5135135135135135,0.5032291137352586,Vivian,0.0083,female
+Sam Pham,Sam,Pham,1,Asian or Pacific Islander,0.5131578947368421,0.5031479849277368,Sam,0.9872,male
+Alice Pham,Alice,Pham,1,Asian or Pacific Islander,0.5061728395061729,0.5030769521187454,Alice,0.0034,female
+Alice Tran,Alice,Tran,1,Asian or Pacific Islander,0.5,0.5042194840896107,Alice,0.0034,female
+Amy Tran,Amy,Tran,1,Asian or Pacific Islander,0.5,0.5035088149780135,Amy,0.0026,female
+Andrew Pham,Andrew,Pham,1,Asian or Pacific Islander,0.5,0.5032362797401965,Andrew,0.996,male
+Grace Pham,Grace,Pham,1,Asian or Pacific Islander,0.5,0.5033222956847166,Grace,0.0021,female
+Albert Pham,Albert,Pham,1,Asian or Pacific Islander,0.4925373134328358,0.5037175233040658,Albert,0.9944,male
+Albert Tran,Albert,Tran,1,Asian or Pacific Islander,0.4878048780487805,0.5029272936438828,Albert,0.9944,male
+Andy Tran,Andy,Tran,1,Asian or Pacific Islander,0.4878048780487805,0.5029272936438828,Andy,0.9881,male
+Jin Patel,Jin,Patel,0,Asian or Pacific Islander,0.4827586206896552,0.502599497624131,Jin,0.7081,male
+Jenny Pham,Jenny,Pham,1,Asian or Pacific Islander,0.4794520547945205,0.50303492923498,Jenny,0.0062,female
+Jennifer Tran,Jennifer,Tran,1,Asian or Pacific Islander,0.47619047619047616,0.5034443575988877,Jennifer,0.0031,female
+Li Patel,Li,Patel,0,Asian or Pacific Islander,0.47560975609756095,0.5024780507729485,Li,0.2752,female
+Jennifer Pham,Jennifer,Pham,1,Asian or Pacific Islander,0.4666666666666667,0.5022472023339226,Jennifer,0.0031,female
+David Pham,David,Pham,1,Asian or Pacific Islander,0.46153846153846156,0.5023980952928128,David,0.9963,male
+Cecilia Kim,Cecilia,Kim,1,Asian or Pacific Islander,0.4583333333333333,0.5035336128708591,Cecilia,0.0023,female
+Jane Tran,Jane,Tran,1,Asian or Pacific Islander,0.45569620253164556,0.5012156594651515,Jane,0.0029,female
+Andy Pham,Andy,Pham,1,Asian or Pacific Islander,0.4507042253521127,0.5011054178903219,Andy,0.9881,male
+Cindy Pham,Cindy,Pham,1,Asian or Pacific Islander,0.44871794871794873,0.5005824113797354,Cindy,0.0028,female
+Jian Patel,Jian,Patel,0,Asian or Pacific Islander,0.43902439024390244,0.49932203358647437,Jian,0.9808,male
+Alan Tran,Alan,Tran,1,Asian or Pacific Islander,0.4,0.4931969619160719,Alan,0.9968,male
+Minh Patel,Minh,Patel,0,Asian or Pacific Islander,0.37333333333333335,0.48694672923957205,Minh,0.8659,male
+May Patel,May,Patel,1,Asian or Pacific Islander,0.3625,0.48375509024895247,May,0.0207,female
+Thanh Patel,Thanh,Patel,0,Asian or Pacific Islander,0.352112676056338,0.4810284087035601,Thanh,0.6088,male
+Grace Patel,Grace,Patel,1,Asian or Pacific Islander,0.35064935064935066,0.48030236546295463,Grace,0.0021,female
+Alex Patel,Alex,Patel,1,Asian or Pacific Islander,0.3333333333333333,0.4745789978762495,Alex,0.9657,male
+David Patel,David,Patel,1,Asian or Pacific Islander,0.3333333333333333,0.47519096331149147,David,0.9963,male
+Andrew Patel,Andrew,Patel,1,Asian or Pacific Islander,0.3142857142857143,0.4675826561931813,Andrew,0.996,male
+Andy Patel,Andy,Patel,1,Asian or Pacific Islander,0.2857142857142857,0.45471630418672376,Andy,0.9881,male
+Eric Patel,Eric,Patel,1,Asian or Pacific Islander,0.2835820895522388,0.4541382164873988,Eric,0.9947,male
+Dan Patel,Dan,Patel,1,Asian or Pacific Islander,0.2777777777777778,0.45104642721034555,Dan,0.9954,male
+Cindy Patel,Cindy,Patel,1,Asian or Pacific Islander,0.2727272727272727,0.4482822077654243,Cindy,0.0028,female
+Albert Patel,Albert,Patel,1,Asian or Pacific Islander,0.2702702702702703,0.44713080116517456,Albert,0.9944,male
+Jennifer Patel,Jennifer,Patel,1,Asian or Pacific Islander,0.2702702702702703,0.44713080116517456,Jennifer,0.0031,female
+Young Patel,Young,Patel,0,Asian or Pacific Islander,0.26666666666666666,0.4451945621839941,Young,0.7321,male
+Vivian Patel,Vivian,Patel,1,Asian or Pacific Islander,0.25675675675675674,0.43982595595196894,Vivian,0.0083,female
+Cecilia Patel,Cecilia,Patel,1,Asian or Pacific Islander,0.25,0.4366668823046865,Cecilia,0.0023,female
+Sam Patel,Sam,Patel,1,Asian or Pacific Islander,0.23232323232323232,0.4244632343465032,Sam,0.9872,male
+Amy Patel,Amy,Patel,1,Asian or Pacific Islander,0.22666666666666666,0.4214945523463591,Amy,0.0026,female
+Jenny Patel,Jenny,Patel,1,Asian or Pacific Islander,0.2222222222222222,0.4183300132670378,Jenny,0.0062,female
+Alice Patel,Alice,Patel,1,Asian or Pacific Islander,0.2191780821917808,0.4165524957735337,Alice,0.0034,female
+Peter Patel,Peter,Patel,1,Asian or Pacific Islander,0.21794871794871795,0.4155245752788548,Peter,0.9966,male
+Jane Patel,Jane,Patel,1,Asian or Pacific Islander,0.1896551724137931,0.3954520642861981,Jane,0.0029,female
+Alan Patel,Alan,Patel,1,Asian or Pacific Islander,0.16666666666666666,0.374916322658782,Alan,0.9968,male
+Lakisha Jackson,Lakisha,Jackson,0,Black or African American,0.8913043478260869,0.3146963876899777,Lakisha,9e-4,female
+Tamika Jackson,Tamika,Jackson,0,Black or African American,0.864406779661017,0.3452948324729955,Tamika,0.0037,female
+Latasha Jackson,Latasha,Jackson,0,Black or African American,0.8524590163934426,0.35758754516763636,Latasha,0.0036,female
+Lakisha Wood,Lakisha,Wood,0,Black or African American,0.8490566037735849,0.3614195524432012,Lakisha,9e-4,female
+Latoya Jackson,Latoya,Jackson,0,Black or African American,0.8309859154929577,0.37743175326172723,Latoya,0.0038,female
+Tamika Williams,Tamika,Williams,0,Black or African American,0.8153846153846154,0.39100462322665114,Tamika,0.0037,female
+Latonya Williams,Latonya,Williams,0,Black or African American,0.8088235294117647,0.39615137093267133,Latonya,0.0029,female
+Latasha Burke,Latasha,Burke,0,Black or African American,0.8064516129032258,0.3983041789032374,Latasha,0.0036,female
+Tanisha Washington,Tanisha,Washington,0,Black or African American,0.8,0.4036867138796656,Tanisha,0.001,female
+Tamika Fox,Tamika,Fox,0,Black or African American,0.7936507936507936,0.4079346152039785,Tamika,0.0037,female
+Latoya Burke,Latoya,Burke,0,Black or African American,0.7903225806451613,0.41040151368212,Latoya,0.0038,female
+Lakisha Stone,Lakisha,Stone,0,Black or African American,0.7894736842105263,0.4113063728303113,Lakisha,9e-4,female
+Latasha Williams,Latasha,Williams,0,Black or African American,0.782608695652174,0.4154928051118867,Latasha,0.0036,female
+Tanisha Williams,Tanisha,Williams,0,Black or African American,0.7777777777777778,0.41964345453112645,Tanisha,0.001,female
+Lakisha Williams,Lakisha,Williams,0,Black or African American,0.7681159420289855,0.42512723134415836,Lakisha,9e-4,female
+Ebony Jackson,Ebony,Jackson,0,Black or African American,0.7636363636363637,0.42876378559573314,Ebony,0.0111,female
+Latoya Washington,Latoya,Washington,0,Black or African American,0.7636363636363637,0.42876378559573314,Latoya,0.0038,female
+Latonya Fox,Latonya,Fox,0,Black or African American,0.7605633802816901,0.4297769764621901,Latonya,0.0029,female
+Tanisha Fox,Tanisha,Fox,0,Black or African American,0.7560975609756098,0.4320772567451877,Tanisha,0.001,female
+Lakisha Washington,Lakisha,Washington,0,Black or African American,0.75,0.4369314487526515,Lakisha,9e-4,female
+Latasha Fox,Latasha,Fox,0,Black or African American,0.75,0.4369314487526515,Latasha,0.0036,female
+Tamika Wood,Tamika,Wood,0,Black or African American,0.75,0.4369314487526515,Tamika,0.0037,female
+Jermaine Wood,Jermaine,Wood,0,Black or African American,0.746031746031746,0.43877593548026267,Jermaine,0.9749,male
+Latonya Weaver,Latonya,Weaver,0,Black or African American,0.7457627118644068,0.4391692918015609,Latonya,0.0029,female
+Jermaine Jackson,Jermaine,Jackson,0,Black or African American,0.7424242424242424,0.4406500813258681,Jermaine,0.9749,male
+Ebony Williams,Ebony,Williams,0,Black or African American,0.7419354838709677,0.44114173295701625,Ebony,0.0111,female
+Tamika Burke,Tamika,Burke,0,Black or African American,0.7301587301587301,0.4474425249214014,Tamika,0.0037,female
+Latonya Washington,Latonya,Washington,0,Black or African American,0.7297297297297297,0.44713080116517456,Latonya,0.0029,female
+Lakisha Carpenter,Lakisha,Carpenter,0,Black or African American,0.7272727272727273,0.44877455520405946,Lakisha,9e-4,female
+Latonya Stone,Latonya,Stone,0,Black or African American,0.7272727272727273,0.44877455520405946,Latonya,0.0029,female
+Latonya Wood,Latonya,Wood,0,Black or African American,0.7258064516129032,0.4497487400071536,Latonya,0.0029,female
+Tanisha Jackson,Tanisha,Jackson,0,Black or African American,0.7254901960784313,0.4507075048209878,Tanisha,0.001,female
+Ebony Fox,Ebony,Fox,0,Black or African American,0.7241379310344828,0.45085118127692886,Ebony,0.0111,female
+Tamika Carpenter,Tamika,Carpenter,0,Black or African American,0.7230769230769231,0.4509605133660647,Tamika,0.0037,female
+Latasha Washington,Latasha,Washington,0,Black or African American,0.7205882352941176,0.4520463665062094,Latasha,0.0036,female
+Tanisha Stone,Tanisha,Stone,0,Black or African American,0.7192982456140351,0.4533362818715847,Tanisha,0.001,female
+Jermaine Williams,Jermaine,Williams,0,Black or African American,0.71875,0.4531634835874829,Jermaine,0.9749,male
+Latonya Jackson,Latonya,Jackson,0,Black or African American,0.71875,0.4531634835874829,Latonya,0.0029,female
+Lakisha Sullivan,Lakisha,Sullivan,0,Black or African American,0.7096774193548387,0.4576166616175075,Lakisha,9e-4,female
+Lakisha Fox,Lakisha,Fox,0,Black or African American,0.7068965517241379,0.45916096973528975,Lakisha,9e-4,female
+Tamika Washington,Tamika,Washington,0,Black or African American,0.7058823529411765,0.46017899330842227,Tamika,0.0037,female
+Tanisha Carpenter,Tanisha,Carpenter,0,Black or African American,0.7058823529411765,0.46017899330842227,Tanisha,0.001,female
+Latoya Fox,Latoya,Fox,0,Black or African American,0.7,0.4621247905424446,Latoya,0.0038,female
+Ebony Washington,Ebony,Washington,0,Black or African American,0.6973684210526315,0.4624496179291394,Ebony,0.0111,female
+Jermaine Sullivan,Jermaine,Sullivan,0,Black or African American,0.696969696969697,0.4630898556999651,Jermaine,0.9749,male
+Latasha Carpenter,Latasha,Carpenter,0,Black or African American,0.6949152542372882,0.4643956877096258,Latasha,0.0036,female
+Darnell Jackson,Darnell,Jackson,0,Black or African American,0.6935483870967742,0.46478303337375604,Darnell,0.9167,male
+Darnell Williams,Darnell,Williams,0,Black or African American,0.6923076923076923,0.46513025470953173,Darnell,0.9167,male
+Lakisha Weaver,Lakisha,Weaver,0,Black or African American,0.6909090909090909,0.4663779770834141,Lakisha,9e-4,female
+Latoya Weaver,Latoya,Weaver,0,Black or African American,0.68,0.4712120714991612,Latoya,0.0038,female
+Ebony Weaver,Ebony,Weaver,0,Black or African American,0.6785714285714286,0.47125144252078643,Ebony,0.0111,female
+Ebony Stone,Ebony,Stone,0,Black or African American,0.6727272727272727,0.4735424207422438,Ebony,0.0111,female
+Latoya Williams,Latoya,Williams,0,Black or African American,0.6666666666666666,0.47559486560567094,Latoya,0.0038,female
+Latoya Wood,Latoya,Wood,0,Black or African American,0.6666666666666666,0.4745789978762495,Latoya,0.0038,female
+Tanisha Weaver,Tanisha,Weaver,0,Black or African American,0.6666666666666666,0.47519096331149147,Tanisha,0.001,female
+Ebony Wood,Ebony,Wood,0,Black or African American,0.6582278481012658,0.47733437050543803,Ebony,0.0111,female
+Latonya Carpenter,Latonya,Carpenter,0,Black or African American,0.65625,0.47871355387816905,Latonya,0.0029,female
+Tanisha Burke,Tanisha,Burke,0,Black or African American,0.6481481481481481,0.4820321529793836,Tanisha,0.001,female
+Latoya Stone,Latoya,Stone,0,Black or African American,0.6461538461538462,0.4818833245315078,Latoya,0.0038,female
+Tamika Stone,Tamika,Stone,0,Black or African American,0.6428571428571429,0.48261708906584017,Tamika,0.0037,female
+Lakisha Burke,Lakisha,Burke,0,Black or African American,0.6388888888888888,0.48369340643025116,Lakisha,9e-4,female
+Latonya Burke,Latonya,Burke,0,Black or African American,0.6333333333333333,0.4859611014169709,Latonya,0.0029,female
+Latasha Sullivan,Latasha,Sullivan,0,Black or African American,0.6296296296296297,0.48743829009700335,Latasha,0.0036,female
+Darnell Wood,Darnell,Wood,0,Black or African American,0.620253164556962,0.48842492713311164,Darnell,0.9167,male
+Jermaine Fox,Jermaine,Fox,0,Black or African American,0.6181818181818182,0.4903101471559001,Jermaine,0.9749,male
+Latasha Weaver,Latasha,Weaver,0,Black or African American,0.6181818181818182,0.4903101471559001,Latasha,0.0036,female
+Latonya Sullivan,Latonya,Sullivan,0,Black or African American,0.6181818181818182,0.4903101471559001,Latonya,0.0029,female
+Jermaine Washington,Jermaine,Washington,0,Black or African American,0.6176470588235294,0.4895752580296542,Jermaine,0.9749,male
+Tamika Weaver,Tamika,Weaver,0,Black or African American,0.6166666666666667,0.4903014177279,Tamika,0.0037,female
+Tanisha Wood,Tanisha,Wood,0,Black or African American,0.6164383561643836,0.4896182465934662,Tanisha,0.001,female
+Darnell Fox,Darnell,Fox,0,Black or African American,0.6153846153846154,0.4902903378454601,Darnell,0.9167,male
+Ebony Burke,Ebony,Burke,0,Black or African American,0.609375,0.491747370293402,Ebony,0.0111,female
+Jermaine Weaver,Jermaine,Weaver,0,Black or African American,0.609375,0.491747370293402,Jermaine,0.9749,male
+Latasha Wood,Latasha,Wood,0,Black or African American,0.6086956521739131,0.49161771686915634,Latasha,0.0036,female
+Ebony Carpenter,Ebony,Carpenter,0,Black or African American,0.6078431372549019,0.49308949989019313,Ebony,0.0111,female
+Tamika Sullivan,Tamika,Sullivan,0,Black or African American,0.6,0.49371044145328746,Tamika,0.0037,female
+Darnell Carpenter,Darnell,Carpenter,0,Black or African American,0.5932203389830508,0.4954497805998453,Darnell,0.9167,male
+Darnell Washington,Darnell,Washington,0,Black or African American,0.5932203389830508,0.4954497805998453,Darnell,0.9167,male
+Latoya Carpenter,Latoya,Carpenter,0,Black or African American,0.5806451612903226,0.49748176000088695,Latoya,0.0038,female
+Latasha Stone,Latasha,Stone,0,Black or African American,0.5740740740740741,0.49912572061109173,Latasha,0.0036,female
+Jermaine Burke,Jermaine,Burke,0,Black or African American,0.5735294117647058,0.4982409795961213,Jermaine,0.9749,male
+Jermaine Carpenter,Jermaine,Carpenter,0,Black or African American,0.5555555555555556,0.5008952558646071,Jermaine,0.9749,male
+Tanisha Sullivan,Tanisha,Sullivan,0,Black or African American,0.5454545454545454,0.502518907629606,Tanisha,0.001,female
+Ebony Sullivan,Ebony,Sullivan,0,Black or African American,0.5409836065573771,0.5024529991884242,Ebony,0.0111,female
+Darnell Stone,Darnell,Stone,0,Black or African American,0.5333333333333333,0.5030977485864634,Darnell,0.9167,male
+Darnell Weaver,Darnell,Weaver,0,Black or African American,0.5245901639344263,0.5035393853198635,Darnell,0.9167,male
+Jermaine Stone,Jermaine,Stone,0,Black or African American,0.5230769230769231,0.503354134397826,Jermaine,0.9749,male
+Latoya Sullivan,Latoya,Sullivan,0,Black or African American,0.4909090909090909,0.504524979109513,Latoya,0.0038,female
+Roosevelt Jackson,Roosevelt,Jackson,0,Black or African American,0.4909090909090909,0.504524979109513,Roosevelt,0.9932,male
+Darnell Burke,Darnell,Burke,0,Black or African American,0.4805194805194805,0.502896599458671,Darnell,0.9167,male
+Darnell Sullivan,Darnell,Sullivan,0,Black or African American,0.4262295081967213,0.4986320083803493,Darnell,0.9167,male
+Roosevelt Williams,Roosevelt,Williams,0,Black or African American,0.4050632911392405,0.494041089897367,Roosevelt,0.9932,male
+Roosevelt Washington,Roosevelt,Washington,0,Black or African American,0.3939393939393939,0.49236596391733095,Roosevelt,0.9932,male
+Roosevelt Weaver,Roosevelt,Weaver,0,Black or African American,0.35714285714285715,0.48261708906584017,Roosevelt,0.9932,male
+Roosevelt Burke,Roosevelt,Burke,0,Black or African American,0.3508771929824561,0.48148683672021303,Roosevelt,0.9932,male
+Roosevelt Wood,Roosevelt,Wood,0,Black or African American,0.3389830508474576,0.4774273547023862,Roosevelt,0.9932,male
+Roosevelt Fox,Roosevelt,Fox,0,Black or African American,0.2830188679245283,0.4547762971026371,Roosevelt,0.9932,male
+Roosevelt Stone,Roosevelt,Stone,0,Black or African American,0.26865671641791045,0.44660638056206914,Roosevelt,0.9932,male
+Roosevelt Carpenter,Roosevelt,Carpenter,0,Black or African American,0.26229508196721313,0.4435327625727437,Roosevelt,0.9932,male
+Roosevelt Sullivan,Roosevelt,Sullivan,0,Black or African American,0.22916666666666666,0.4247443953937941,Roosevelt,0.9932,male
+Guadalupe Rodriguez,Guadalupe,Rodriguez,0,Hispanic,0.875,0.3333333333333333,Guadalupe,0.2609,female
+Julio Perez,Julio,Perez,0,Hispanic,0.875,0.3337119062359573,Julio,0.9925,male
+Julio Ramirez,Julio,Ramirez,0,Hispanic,0.8727272727272727,0.3363499860730087,Julio,0.9925,male
+Javier Martinez,Javier,Martinez,0,Hispanic,0.8714285714285714,0.3371418043988196,Javier,0.9941,male
+Salvador Gonzalez,Salvador,Gonzalez,0,Hispanic,0.8679245283018868,0.3418128057789596,Salvador,0.9954,male
+Jesus Ramirez,Jesus,Ramirez,0,Hispanic,0.8611111111111112,0.34825745517658624,Jesus,0.9886,male
+Hector Rodriguez,Hector,Rodriguez,0,Hispanic,0.8604651162790697,0.350604603563426,Hector,0.9945,male
+Alejandro Ramirez,Alejandro,Ramirez,0,Hispanic,0.8571428571428571,0.3527378107513292,Alejandro,0.9925,male
+Hector Garcia,Hector,Garcia,0,Hispanic,0.8541666666666666,0.3566739576374165,Hector,0.9945,male
+Javier Sanchez,Javier,Sanchez,0,Hispanic,0.8524590163934426,0.35758754516763636,Javier,0.9941,male
+Jesus Perez,Jesus,Perez,0,Hispanic,0.85,0.36008473579027556,Jesus,0.9886,male
+Hector Gonzalez,Hector,Gonzalez,0,Hispanic,0.847457627118644,0.3626321077722928,Hector,0.9945,male
+Julio Garcia,Julio,Garcia,0,Hispanic,0.8405797101449275,0.36874941299243813,Julio,0.9925,male
+Guadalupe Martinez,Guadalupe,Martinez,0,Hispanic,0.8387096774193549,0.37080101097607304,Guadalupe,0.2609,female
+Hector Ramirez,Hector,Ramirez,0,Hispanic,0.8363636363636363,0.37335497772755005,Hector,0.9945,male
+Miguel Lopez,Miguel,Lopez,0,Hispanic,0.8356164383561644,0.3731881648614999,Miguel,0.9936,male
+Alejandro Perez,Alejandro,Perez,0,Hispanic,0.8309859154929577,0.37743175326172723,Alejandro,0.9925,male
+Juan Gonzalez,Juan,Gonzalez,0,Hispanic,0.8307692307692308,0.37787360524183417,Juan,0.9916,male
+Miguel Sanchez,Miguel,Sanchez,0,Hispanic,0.8301886792452831,0.3790600245041255,Miguel,0.9936,male
+Jesus Lopez,Jesus,Lopez,0,Hispanic,0.8275862068965517,0.3810387941055742,Jesus,0.9886,male
+Jesus Martinez,Jesus,Martinez,0,Hispanic,0.8275862068965517,0.3810387941055742,Jesus,0.9886,male
+Jorge Rodriguez,Jorge,Rodriguez,0,Hispanic,0.8269230769230769,0.3820047143818447,Jorge,0.994,male
+Julio Gonzalez,Julio,Gonzalez,0,Hispanic,0.8266666666666667,0.3810842757517361,Julio,0.9925,male
+Alejandro Lopez,Alejandro,Lopez,0,Hispanic,0.8245614035087719,0.3837226964481298,Alejandro,0.9925,male
+Salvador Lopez,Salvador,Lopez,0,Hispanic,0.8235294117647058,0.3850133687518487,Salvador,0.9954,male
+Javier Gonzalez,Javier,Gonzalez,0,Hispanic,0.8208955223880597,0.3863337046431279,Javier,0.9941,male
+Salvador Ramirez,Salvador,Ramirez,0,Hispanic,0.8166666666666667,0.39020492949942304,Salvador,0.9954,male
+Juan Ramirez,Juan,Ramirez,0,Hispanic,0.8153846153846154,0.39100462322665114,Juan,0.9916,male
+Javier Rodriguez,Javier,Rodriguez,0,Hispanic,0.8148148148148148,0.39209519801278114,Javier,0.9941,male
+Miguel Ramirez,Miguel,Ramirez,0,Hispanic,0.8125,0.39444277960558327,Miguel,0.9936,male
+Alejandro Rodriguez,Alejandro,Rodriguez,0,Hispanic,0.8103448275862069,0.3954520642861981,Alejandro,0.9925,male
+Javier Hernandez,Javier,Hernandez,0,Hispanic,0.8070175438596491,0.3981473386299918,Javier,0.9941,male
+Jorge Lopez,Jorge,Lopez,0,Hispanic,0.803030303030303,0.4007568597117966,Jorge,0.994,male
+Salvador Torres,Salvador,Torres,0,Hispanic,0.8028169014084507,0.40070360652443615,Salvador,0.9954,male
+Alejandro Torres,Alejandro,Torres,0,Hispanic,0.8026315789473685,0.4006573545930159,Alejandro,0.9925,male
+Alejandro Sanchez,Alejandro,Sanchez,0,Hispanic,0.8,0.4036867138796656,Alejandro,0.9925,male
+Hector Sanchez,Hector,Sanchez,0,Hispanic,0.7966101694915254,0.4059752420236703,Hector,0.9945,male
+Juan Martinez,Juan,Martinez,0,Hispanic,0.7962962962962963,0.4065329539256728,Juan,0.9916,male
+Miguel Hernandez,Miguel,Hernandez,0,Hispanic,0.7945205479452054,0.4068477776211284,Miguel,0.9936,male
+Julio Torres,Julio,Torres,0,Hispanic,0.7941176470588235,0.4073512375440995,Julio,0.9925,male
+Salvador Garcia,Salvador,Garcia,0,Hispanic,0.7936507936507936,0.4079346152039785,Salvador,0.9954,male
+Jorge Gonzalez,Jorge,Gonzalez,0,Hispanic,0.7931034482758621,0.40861858377396965,Jorge,0.994,male
+Alejandro Hernandez,Alejandro,Hernandez,0,Hispanic,0.7924528301886793,0.40943162132389443,Alejandro,0.9925,male
+Juan Lopez,Juan,Lopez,0,Hispanic,0.7924528301886793,0.40943162132389443,Juan,0.9916,male
+Juan Perez,Juan,Perez,0,Hispanic,0.7916666666666666,0.4104140790860576,Juan,0.9916,male
+Jorge Perez,Jorge,Perez,0,Hispanic,0.7884615384615384,0.41238371915612493,Jorge,0.994,male
+Guadalupe Hernandez,Guadalupe,Hernandez,0,Hispanic,0.7878787878787878,0.4119429204355498,Guadalupe,0.2609,female
+Alejandro Garcia,Alejandro,Garcia,0,Hispanic,0.7868852459016393,0.4129065309227846,Alejandro,0.9925,male
+Jorge Hernandez,Jorge,Hernandez,0,Hispanic,0.7868852459016393,0.4129065309227846,Jorge,0.994,male
+Guadalupe Ramirez,Guadalupe,Ramirez,0,Hispanic,0.7866666666666666,0.41241979837307774,Guadalupe,0.2609,female
+Julio Rodriguez,Julio,Rodriguez,0,Hispanic,0.7857142857142857,0.4127903453219926,Julio,0.9925,male
+Jesus Sanchez,Jesus,Sanchez,0,Hispanic,0.7846153846153846,0.4142880826002788,Jesus,0.9886,male
+Miguel Martinez,Miguel,Martinez,0,Hispanic,0.7833333333333333,0.415450201656585,Miguel,0.9936,male
+Miguel Garcia,Miguel,Garcia,0,Hispanic,0.7831325301204819,0.4146168601952344,Miguel,0.9936,male
+Salvador Martinez,Salvador,Martinez,0,Hispanic,0.7796610169491526,0.41803302171864826,Salvador,0.9954,male
+Alejandro Martinez,Alejandro,Martinez,0,Hispanic,0.7777777777777778,0.41907903806247476,Alejandro,0.9925,male
+Salvador Hernandez,Salvador,Hernandez,0,Hispanic,0.7746478873239436,0.4207878019209597,Salvador,0.9954,male
+Guadalupe Lopez,Guadalupe,Lopez,0,Hispanic,0.7708333333333334,0.4247443953937941,Guadalupe,0.2609,female
+Javier Ramirez,Javier,Ramirez,0,Hispanic,0.7708333333333334,0.4247443953937941,Javier,0.9941,male
+Javier Lopez,Javier,Lopez,0,Hispanic,0.7704918032786885,0.42400639236340215,Javier,0.9941,male
+Guadalupe Gonzalez,Guadalupe,Gonzalez,0,Hispanic,0.7671232876712328,0.4255893934430971,Guadalupe,0.2609,female
+Javier Garcia,Javier,Garcia,0,Hispanic,0.7666666666666667,0.4265218680850986,Javier,0.9941,male
+Jesus Hernandez,Jesus,Hernandez,0,Hispanic,0.7666666666666667,0.4265218680850986,Jesus,0.9886,male
+Juan Hernandez,Juan,Hernandez,0,Hispanic,0.7619047619047619,0.4293387907410918,Juan,0.9916,male
+Hector Lopez,Hector,Lopez,0,Hispanic,0.76,0.42995914325068707,Hector,0.9945,male
+Miguel Gonzalez,Miguel,Gonzalez,0,Hispanic,0.7543859649122807,0.4342769752451426,Miguel,0.9936,male
+Hector Hernandez,Hector,Hernandez,0,Hispanic,0.7540983606557377,0.4341941848573452,Hector,0.9945,male
+Jesus Rodriguez,Jesus,Rodriguez,0,Hispanic,0.7540983606557377,0.4341941848573452,Jesus,0.9886,male
+Alejandro Gonzalez,Alejandro,Gonzalez,0,Hispanic,0.7536231884057971,0.4340573661412156,Alejandro,0.9925,male
+Juan Garcia,Juan,Garcia,0,Hispanic,0.7536231884057971,0.4340573661412156,Juan,0.9916,male
+Juan Rodriguez,Juan,Rodriguez,0,Hispanic,0.7532467532467533,0.43394894666502914,Juan,0.9916,male
+Jesus Gonzalez,Jesus,Gonzalez,0,Hispanic,0.75,0.436232171512701,Jesus,0.9886,male
+Jorge Sanchez,Jorge,Sanchez,0,Hispanic,0.75,0.4364357804719847,Jorge,0.994,male
+Miguel Perez,Miguel,Perez,0,Hispanic,0.746268656716418,0.4384298286029069,Miguel,0.9936,male
+Guadalupe Sanchez,Guadalupe,Sanchez,0,Hispanic,0.746031746031746,0.43877593548026267,Guadalupe,0.2609,female
+Salvador Rodriguez,Salvador,Rodriguez,0,Hispanic,0.7424242424242424,0.4406500813258681,Salvador,0.9954,male
+Jorge Garcia,Jorge,Garcia,0,Hispanic,0.7413793103448276,0.44170105106485397,Jorge,0.994,male
+Guadalupe Garcia,Guadalupe,Garcia,0,Hispanic,0.7384615384615385,0.4428925898610702,Guadalupe,0.2609,female
+Julio Martinez,Julio,Martinez,0,Hispanic,0.7384615384615385,0.4428925898610702,Julio,0.9925,male
+Miguel Rodriguez,Miguel,Rodriguez,0,Hispanic,0.7368421052631579,0.4442616583193193,Miguel,0.9936,male
+Jesus Garcia,Jesus,Garcia,0,Hispanic,0.7358490566037735,0.4450990985692622,Jesus,0.9886,male
+Julio Lopez,Julio,Lopez,0,Hispanic,0.7358490566037735,0.4450990985692622,Julio,0.9925,male
+Guadalupe Perez,Guadalupe,Perez,0,Hispanic,0.7352941176470589,0.44445663820946985,Guadalupe,0.2609,female
+Juan Torres,Juan,Torres,0,Hispanic,0.7352941176470589,0.44445663820946985,Juan,0.9916,male
+Miguel Torres,Miguel,Torres,0,Hispanic,0.7321428571428571,0.4468504500113261,Miguel,0.9936,male
+Salvador Sanchez,Salvador,Sanchez,0,Hispanic,0.7321428571428571,0.4468504500113261,Salvador,0.9954,male
+Guadalupe Torres,Guadalupe,Torres,0,Hispanic,0.7307692307692307,0.44788761788017434,Guadalupe,0.2609,female
+Hector Martinez,Hector,Martinez,0,Hispanic,0.7254901960784313,0.4507075048209878,Hector,0.9945,male
+Juan Sanchez,Juan,Sanchez,0,Hispanic,0.71875,0.4531634835874829,Juan,0.9916,male
+Javier Torres,Javier,Torres,0,Hispanic,0.7142857142857143,0.4550157551932901,Javier,0.9941,male
+Jorge Martinez,Jorge,Martinez,0,Hispanic,0.7101449275362319,0.4570187689337444,Jorge,0.994,male
+Julio Hernandez,Julio,Hernandez,0,Hispanic,0.7096774193548387,0.4576166616175075,Julio,0.9925,male
+Julio Sanchez,Julio,Sanchez,0,Hispanic,0.6964285714285714,0.4639609253587421,Julio,0.9925,male
+Javier Perez,Javier,Perez,0,Hispanic,0.6825396825396826,0.4692271210638118,Javier,0.9941,male
+Hector Perez,Hector,Perez,0,Hispanic,0.676056338028169,0.471309661242674,Hector,0.9945,male
+Jorge Torres,Jorge,Torres,0,Hispanic,0.671875,0.4732423621500228,Jorge,0.994,male
+Salvador Perez,Salvador,Perez,0,Hispanic,0.671875,0.4732423621500228,Salvador,0.9954,male
+Jorge Ramirez,Jorge,Ramirez,0,Hispanic,0.6571428571428571,0.47809144373375745,Jorge,0.994,male
+Jesus Torres,Jesus,Torres,0,Hispanic,0.5737704918032787,0.4986320083803493,Jesus,0.9886,male
+Hector Torres,Hector,Torres,0,Hispanic,0.5483870967741935,0.5017157236640695,Hector,0.9945,male

@@ -239,7 +239,7 @@ def CreateTweet(
     # format time to date and time in tweet format
     tweet_time = time.strftime("%-I:%M %p")
     tweet_date = time.strftime("%b %-d, %Y")
-    time_date_text = tweet_time + " · " + tweet_date + " · " + "Twitter for iPhone"
+    time_date_text = tweet_time + " · " + tweet_date + " " + " "
     draw.text(xy=tuple(map(sum, zip(time_date_position, (0, y)))),
               text=time_date_text, font=font_time_date, fill="#667786")
     # reactions
@@ -249,18 +249,19 @@ def CreateTweet(
     x_reactions = draw.textsize(text=reactions_retweet,
                                 font=font_reaction_bold)[0] + 10
     draw.text(xy=tuple(map(sum, zip(reaction_retweet_position, (x_reactions, y)))),
-              text="Retweets", font=font_reaction_regular, fill="#667786")
-    x_reactions += draw.textsize(text="Retweets",
+              text="Reposts", font=font_reaction_regular, fill="#667786")
+    x_reactions += draw.textsize(text="Reposts",
                                  font=font_reaction_regular)[0] + 30
     # quotes
-    draw.text(xy=tuple(map(sum, zip(reaction_retweet_position, (x_reactions, y)))),
-              text=reactions_quote, font=font_reaction_bold, fill=(0, 0, 0))
-    x_reactions += draw.textsize(text=reactions_quote,
-                                 font=font_reaction_bold)[0] + 10
-    draw.text(xy=tuple(map(sum, zip(reaction_retweet_position, (x_reactions, y)))),
-              text="Quote Tweets", font=font_reaction_regular, fill="#667786")
-    x_reactions += draw.textsize(text="Quote Tweets",
-                                 font=font_reaction_regular)[0] + 30
+    # remove quote tweets
+    # draw.text(xy=tuple(map(sum, zip(reaction_retweet_position, (x_reactions, y)))),
+    #          text=reactions_quote, font=font_reaction_bold, fill=(0, 0, 0))
+    #x_reactions += draw.textsize(text=reactions_quote,
+    #                             font=font_reaction_bold)[0] + 10
+    #draw.text(xy=tuple(map(sum, zip(reaction_retweet_position, (x_reactions, y)))),
+    #          text="Quote Tweets", font=font_reaction_regular, fill="#667786")
+    #x_reactions += draw.textsize(text="Quote Tweets",
+    #                             font=font_reaction_regular)[0] + 30
     # likes
     draw.text(xy=tuple(map(sum, zip(reaction_retweet_position, (x_reactions, y)))),
               text=reactions_like, font=font_reaction_bold, fill=(0, 0, 0))

@@ -29,7 +29,7 @@
 library("reticulate")
 source_python('conjoint_tweets.py')
 image = CreateTweet(
-    author_avatar="input/avatar/obama_avatar.jpeg",
+    author_avatar="input/obama_avatar.jpeg",
     author_name="Mark Dem",
     author_tag="@_dem2022",
     text="You’ve only got six days left to vote in the midterms – and while I know you’ve heard this a million times already, this election really is too important to sit out. In many places, your vote could make the difference.",
@@ -38,12 +38,12 @@ image = CreateTweet(
     reactions_like="20K",
     time="2022-07-05 14:34",
     quote=TRUE,
-    quote_author_avatar="input/avatar/woman3_clean.png",
+    quote_author_avatar="input/woman3_clean.png",
     quote_author_name="Rep. Jackson",
     quote_author_tag="@_Jack",
     quote_text="Don't forget to vote. Your participation matters!",
     reply=TRUE,
-    reply_author_avatar="input/avatar/republican.png",
+    reply_author_avatar="input/republican.png",
     reply_author_name="FrozenPie",
     reply_author_tag="@FrozenPie",
     reply_text="You are done! Bye, bye Dem! It is time to bring Trump back"
